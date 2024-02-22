@@ -3,5 +3,13 @@ Elements I Used:
 <chara> = characters
 <q> = quote
 
-2/21/2024
+2/21/2024 - Dot Matches all Off to start
     1. Deleted the Gutenberg Project Filler
+    2. Searched &, <, and >
+        - Found Nothing
+    3. Searched \n\n
+        - Replaced with </p>\n\n<p>
+        - Got rid of extra element at bottom and at top
+    4. Added a root element <Frankenstein_Project>
+    5. Searched (“)(.*?)(”) with Dot matches all on
+        - Replaced with <q>\0</q>
