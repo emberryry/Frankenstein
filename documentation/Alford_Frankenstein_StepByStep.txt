@@ -1,0 +1,7 @@
+Elements I Used:
+<p> = paragraphs
+<chara> = characters
+<q> = quote
+
+2/21/2024
+    1. Deleted the Gutenberg Project Filler
