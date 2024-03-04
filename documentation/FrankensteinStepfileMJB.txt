@@ -1,0 +1,10 @@
+Frankenstein Stepfile
+
+1. Searched <p>(.+17\.)</p> and replaced with <d>\1</d> to label all dates even if they had locations
+2. Searched <d>([^,]+), ([^,]+), ([^<]+)</d> and replaced it with <loc>\1</loc>, <d>\2, \3</d> to replace the dates that did have locations to have tags for both the location and date
+3. Searched <q>(.*?)<\/q> and replaced it with \1 to remove the original tags around the quotes
+3. Searched <p>-- and replaced it with <p> ti get rid of the -- at the beginning of the paragraphs
+3. Searched --(.*?)-- and replaced with <q>\1</q> manually to ensure that what i was replacing was an actual quote
+4. Searched --s and replaced with 's to replaces the hashes that are posessive to have an apostrophe
+5. Searched <p>-- and replaced with <p> to remove -- at the beginning of some paragraphs
+6. Searched (o)--(clock) replaced with \1'\2 to add apostrophe to o'clock
