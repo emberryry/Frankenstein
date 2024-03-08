@@ -1,0 +1,14 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start= root
+root = element root {FrankensteinProject}
+FrankensteinProject = element FrankensteinProject {Title, Author, Contents, Letter, Chapter, Paragraphs, Quote*}
+Title = attribute Title {text}
+Author = attribute Author {text}
+Contents = attribute contents {text}
+Letter = attribute letter {n, (text)*}
+Chapter = attribute ch {n, (text)*}
+Paragraphs = attribute p {text}
+Quote = attribute q {text}
+n = attribute n {xsd:integer}
+

@@ -1,39 +1,42 @@
-<Frankenstein_Project>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="Frankenstein_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<FrankensteinProject>
     
-Frankenstein;
-or, the Modern Prometheus
-by Mary Wollstonecraft (Godwin) Shelley
-CONTENTS
-<letter n=1>Letter 1</letter>
-<letter n=2>Letter 2</letter>
-<letter n=3>Letter 3</letter>
-<letter n=4>Letter 4</letter>
-<ch n=1>Chapter 1</ch>
-<ch n=2>Chapter 2</ch>
-<ch n=3>Chapter 3</ch>
-<ch n=4>Chapter 4</ch>
-<ch n=5>Chapter 5</ch>
-<ch n=6>Chapter 6</ch>
-<ch n=7>Chapter 7</ch>
-<ch n=8>Chapter 8</ch>
-<ch n=9>Chapter 9</ch>
-<ch n=10>Chapter 10</ch>
-<ch n=11>Chapter 11</ch>
-<ch n=12>Chapter 12</ch>
-<ch n=13>Chapter 13</ch>
-<ch n=14>Chapter 14</ch>
-<ch n=15>Chapter 15</ch>
-<ch n=16>Chapter 16</ch>
-<ch n=17>Chapter 17</ch>
-<ch n=18>Chapter 18</ch>
-<ch n=19>Chapter 19</ch>
-<ch n=20>Chapter 20</ch>
-<ch n=21>Chapter 21</ch>
-<ch n=22>Chapter 22</ch>
-<ch n=23>Chapter 23</ch>
-<ch n=24>Chapter 24</ch>
+<Title>Frankenstein;
+    or, the Modern Prometheus</Title>
+<Author>by Mary Wollstonecraft (Godwin) Shelley</Author>
+<contents>CONTENTS</contents>
+<letter n="1">Letter 1</letter>
+<letter n="2">Letter 2</letter>
+<letter n="3">Letter 3</letter>
+<letter n="4">Letter 4</letter>
+<ch n="1">Chapter 1</ch>
+<ch n="2">Chapter 2</ch>
+<ch n="3">Chapter 3</ch>
+<ch n="4">Chapter 4</ch>
+<ch n="5">Chapter 5</ch>
+<ch n="6">Chapter 6</ch>
+<ch n="7">Chapter 7</ch>
+<ch n="8">Chapter 8</ch>
+<ch n="9">Chapter 9</ch>
+<ch n="10">Chapter 10</ch>
+<ch n="11">Chapter 11</ch>
+<ch n="12">Chapter 12</ch>
+<ch n="13">Chapter 13</ch>
+<ch n="14">Chapter 14</ch>
+<ch n="15">Chapter 15</ch>
+<ch n="16">Chapter 16</ch>
+<ch n="17">Chapter 17</ch>
+<ch n="18">Chapter 18</ch>
+<ch n="19">Chapter 19</ch>
+<ch n="20">Chapter 20</ch>
+<ch n="21">Chapter 21</ch>
+<ch n="22">Chapter 22</ch>
+<ch n="23">Chapter 23</ch>
+<ch n="24">Chapter 24</ch>
     
-<letter n=1>Letter 1</letter>
+<letter n="1">Letter 1</letter>
 To Mrs. Saville, England.
 
 <loc>St. Petersburgh</loc>, <d>Dec. 11th, 17--</d>
@@ -59,7 +62,7 @@ To Mrs. Saville, England.
 <p>Your affectionate brother, </p>
 <p>R. Walton</p>
 
-<letter n=2>Letter 2</letter>
+<letter n="2">Letter 2</letter>
 <p>To Mrs. Saville, England.</p>
 
 <loc>Archangel</loc>, <d>28th March, 17--</d>
@@ -81,7 +84,7 @@ To Mrs. Saville, England.
 <p>Your affectionate brother,</p>
 <p>Robert Walton</p>
 
-<letter n=3>Letter 3 </letter>
+<letter n="3">Letter 3 </letter>
 <p>To Mrs. Saville, England.</p>
 
 <d>July 7th, 17--</d>
@@ -100,7 +103,7 @@ To Mrs. Saville, England.
 
 <p>R.W.</p>
 
-<letter n=4>Letter 4 </letter>
+<letter n="4">Letter 4 </letter>
 <p>To Mrs. Saville, England.</p>
 
 <d>August 5th, 17--</d>
@@ -179,7 +182,7 @@ To Mrs. Saville, England.
 
 <p>He then told me that he would commence his narrative the next day when I should be at leisure. This promise drew from me the warmest thanks. I have resolved every night, when I am not imperatively occupied by my duties, to record, as nearly as possible in his own words, what he has related during the day. If I should be engaged, I will at least make notes. This manuscript will doubtless afford you the greatest pleasure; but to me, who know him, and who hear it from his own lips<q>with what interest and sympathy shall I read it in some future day! Even now, as I commence my task, his full-toned voice swells in my ears; his lustrous eyes dwell on me with all their melancholy sweetness; I see his thin hand raised in animation, while the lineaments of his face are irradiated by the soul within. Strange and harrowing must be his story, frightful the storm which embraced the gallant vessel on its course and wrecked it</q>thus!</p>
 
-<p><ch n=1</p>>Chapter 1</p></ch>
+<ch n="1">Chapter 1
 <p>I am by birth a Genevese, and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics, and my father had filled several public situations with honour and reputation. He was respected by all who knew him for his integrity and indefatigable attention to public business. He passed his younger days perpetually occupied by the affairs of his country; a variety of circumstances had prevented his marrying early, nor was it until the decline of life that he became a husband and the father of a family.</p>
 
 <p>As the circumstances of his marriage illustrate his character, I cannot refrain from relating them. One of his most intimate friends was a merchant who, from a flourishing state, fell, through numerous mischances, into poverty. This man, whose name was Beaufort, was of a proud and unbending disposition and could not bear to live in poverty and oblivion in the same country where he had formerly been distinguished for his rank and magnificence. Having paid his debts, therefore, in the most honourable manner, he retreated with his daughter to the town of Lucerne, where he lived unknown and in wretchedness. My father loved Beaufort with the truest friendship and was deeply grieved by his retreat in these unfortunate circumstances. He bitterly deplored the false pride which led his friend to a conduct so little worthy of the affection that united them. He lost no time in endeavouring to seek him out, with the hope of persuading him to begin the world again through his credit and assistance.</p>
@@ -201,8 +204,9 @@ To Mrs. Saville, England.
 <p>When my father returned from Milan, he found playing with me in the hall of our villa a child fairer than pictured cherub<q>a creature who seemed to shed radiance from her looks and whose form and motions were lighter than the chamois of the hills. The apparition was soon explained. With his permission my mother prevailed on her rustic guardians to yield their charge to her. They were fond of the sweet orphan. Her presence had seemed a blessing to them, but it would be unfair to her to keep her in poverty and want when Providence afforded her such powerful protection. They consulted their village priest, and the result was that Elizabeth Lavenza became the inmate of my parents</q> house<q>my more than sister</q>the beautiful and adored companion of all my occupations and my pleasures.</p>
 
 <p>Everyone loved Elizabeth. The passionate and almost reverential attachment with which all regarded her became, while I shared it, my pride and my delight. On the evening previous to her being brought to my home, my mother had said playfully, <q>I have a pretty present for my Victor</q>tomorrow he shall have it.<q> And when, on the morrow, she presented Elizabeth to me as her promised gift, I, with childish seriousness, interpreted her words literally and looked upon Elizabeth as mine</q>mine to protect, love, and cherish. All praises bestowed on her I received as made to a possession of my own. We called each other familiarly by the name of cousin. No word, no expression could body forth the kind of relation in which she stood to me--my more than sister, since till death she was to be mine only.</p>
+    </ch>
 
-<p><ch n=2</p>>Chapter 2</p></ch>
+<ch n="2">Chapter 2>
 <p>We were brought up together; there was not quite a year difference in our ages. I need not say that we were strangers to any species of disunion or dispute. Harmony was the soul of our companionship, and the diversity and contrast that subsisted in our characters drew us nearer together. Elizabeth was of a calmer and more concentrated disposition; but, with all my ardour, I was capable of a more intense application and was more deeply smitten with the thirst for knowledge. She busied herself with following the aerial creations of the poets; and in the majestic and wondrous scenes which surrounded our Swiss home --the sublime shapes of the mountains, the changes of the seasons, tempest and calm, the silence of winter, and the life and turbulence of our Alpine summers--she found ample scope for admiration and delight. While my companion contemplated with a serious and satisfied spirit the magnificent appearances of things, I delighted in investigating their causes. The world was to me a secret which I desired to divine. Curiosity, earnest research to learn the hidden laws of nature, gladness akin to rapture, as they were unfolded to me, are among the earliest sensations I can remember.</p>
 
 <p>On the birth of a second son, my junior by seven years, my parents gave up entirely their wandering life and fixed themselves in their native country. We possessed a house in Geneva, and a campagne on Belrive, the eastern shore of the lake, at the distance of rather more than a league from the city. We resided principally in the latter, and the lives of my parents were passed in considerable seclusion. It was my temper to avoid a crowd and to attach myself fervently to a few. I was indifferent, therefore, to my school-fellows in general; but I united myself in the bonds of the closest friendship to one among them. Henry Clerval was the son of a merchant of Geneva. He was a boy of singular talent and fancy. He loved enterprise, hardship, and even danger for its own sake. He was deeply read in books of chivalry and romance. He composed heroic songs and began to write many a tale of enchantment and knightly adventure. He tried to make us act plays and to enter into masquerades, in which the characters were drawn from the heroes of Roncesvalles, of the Round Table of King Arthur, and the chivalrous train who shed their blood to redeem the holy sepulchre from the hands of the infidels.</p>
@@ -233,9 +237,9 @@ To Mrs. Saville, England.
 
 <p>Thus strangely are our souls constructed, and by such slight ligaments are we bound to prosperity or ruin. When I look back, it seems to me as if this almost miraculous change of inclination and will was the immediate suggestion of the guardian angel of my life--the last effort made by the spirit of preservation to avert the storm that was even then hanging in the stars and ready to envelop me. Her victory was announced by an unusual tranquillity and gladness of soul which followed the relinquishing of my ancient and latterly tormenting studies. It was thus that I was to be taught to associate evil with their prosecution, happiness with their disregard.</p>
 
-<p>It was a strong effort of the spirit of good, but it was ineffectual. Destiny was too potent, and her immutable laws had decreed my utter and terrible destruction.</p>
+    <p>It was a strong effort of the spirit of good, but it was ineffectual. Destiny was too potent, and her immutable laws had decreed my utter and terrible destruction.</p> </ch>
 
-<p><ch n=3</p>>Chapter 3</p></ch>
+<ch n="3">Chapter 3
 <p>When I had attained the age of seventeen my parents resolved that I should become a student at the university of Ingolstadt. I had hitherto attended the schools of Geneva, but my father thought it necessary for the completion of my education that I should be made acquainted with other customs than those of my native country. My departure was therefore fixed at an early date, but before the day resolved upon could arrive, the first misfortune of my life occurred--an omen, as it were, of my future misery.</p>
 
 <p>Elizabeth had caught the scarlet fever; her illness was severe, and she was in the greatest danger. During her illness many arguments had been urged to persuade my mother to refrain from attending upon her. She had at first yielded to our entreaties, but when she heard that the life of her favourite was menaced, she could no longer control her anxiety. She attended her sickbed; her watchful attentions triumphed over the malignity of the distemper--Elizabeth was saved, but the consequences of this imprudence were fatal to her preserver. On the third day my mother sickened; her fever was accompanied by the most alarming symptoms, and the looks of her medical attendants prognosticated the worst event. On her deathbed the fortitude and benignity of this best of women did not desert her. She joined the hands of Elizabeth and myself. <q>My children,</q> she said, <q>my firmest hopes of future happiness were placed on the prospect of your union. This expectation will now be the consolation of your father. Elizabeth, my love, you must supply my place to my younger children. Alas! I regret that I am taken from you; and, happy and beloved as I have been, is it not hard to quit you all? But these are not thoughts befitting me; I will endeavour to resign myself cheerfully to death and will indulge a hope of meeting you in another world.</q></p>
@@ -277,8 +281,9 @@ To Mrs. Saville, England.
 <p>He then took me into his laboratory and explained to me the uses of his various machines, instructing me as to what I ought to procure and promising me the use of his own when I should have advanced far enough in the science not to derange their mechanism. He also gave me the list of books which I had requested, and I took my leave.</p>
 
 <p>Thus ended a day memorable to me; it decided my future destiny.</p>
-
-<p><ch n=4 </p>>Chapter 4 </p></ch>
+</ch>
+    
+<ch n="4">Chapter 4
 <p>From this day natural philosophy, and particularly chemistry, in the most comprehensive sense of the term, became nearly my sole occupation. I read with ardour those works, so full of genius and discrimination, which modern inquirers have written on these subjects. I attended the lectures and cultivated the acquaintance of the men of science of the university, and I found even in M. Krempe a great deal of sound sense and real information, combined, it is true, with a repulsive physiognomy and manners, but not on that account the less valuable. In M. Waldman I found a true friend. His gentleness was never tinged by dogmatism, and his instructions were given with an air of frankness and good nature that banished every idea of pedantry. In a thousand ways he smoothed for me the path of knowledge and made the most abstruse inquiries clear and facile to my apprehension. My application was at first fluctuating and uncertain; it gained strength as I proceeded and soon became so ardent and eager that the stars often disappeared in the light of morning whilst I was yet engaged in my laboratory.</p>
 
 <p>As I applied so closely, it may be easily conceived that my progress was rapid. My ardour was indeed the astonishment of the students, and my proficiency that of the masters. Professor Krempe often asked me, with a sly smile, how Cornelius Agrippa went on, whilst M. Waldman expressed the most heartfelt exultation in my progress. Two years passed in this manner, during which I paid no visit to Geneva, but was engaged, heart and soul, in the pursuit of some discoveries which I hoped to make. None but those who have experienced them can conceive of the enticements of science. In other studies you go as far as others have gone before you, and there is nothing more to know; but in a scientific pursuit there is continual food for discovery and wonder. A mind of moderate capacity which closely pursues one study must infallibly arrive at great proficiency in that study; and I, who continually sought the attainment of one object of pursuit and was solely wrapped up in this, improved so rapidly that at the end of two years I made some discoveries in the improvement of some chemical instruments, which procured me great esteem and admiration at the university. When I had arrived at this point and had become as well acquainted with the theory and practice of natural philosophy as depended on the lessons of any of the professors at Ingolstadt, my residence there being no longer conducive to my improvements, I thought of returning to my friends and my native town, when an incident happened that protracted my stay.</p>
@@ -305,9 +310,9 @@ To Mrs. Saville, England.
 
 <p>But I forget that I am moralizing in the most interesting part of my tale, and your looks remind me to proceed.</p>
 
-<p>My father made no reproach in his letters and only took notice of my silence by inquiring into my occupations more particularly than before. Winter, spring, and summer passed away during my labours; but I did not watch the blossom or the expanding leaves--sights which before always yielded me supreme delight--so deeply was I engrossed in my occupation. The leaves of that year had withered before my work drew near to a close, and now every day showed me more plainly how well I had succeeded. But my enthusiasm was checked by my anxiety, and I appeared rather like one doomed by slavery to toil in the mines, or any other unwholesome trade than an artist occupied by his favourite employment. Every night I was oppressed by a slow fever, and I became nervous to a most painful degree; the fall of a leaf startled me, and I shunned my fellow creatures as if I had been guilty of a crime. Sometimes I grew alarmed at the wreck I perceived that I had become; the energy of my purpose alone sustained me: my labours would soon end, and I believed that exercise and amusement would then drive away incipient disease; and I promised myself both of these when my creation should be complete.</p>
+    <p>My father made no reproach in his letters and only took notice of my silence by inquiring into my occupations more particularly than before. Winter, spring, and summer passed away during my labours; but I did not watch the blossom or the expanding leaves--sights which before always yielded me supreme delight--so deeply was I engrossed in my occupation. The leaves of that year had withered before my work drew near to a close, and now every day showed me more plainly how well I had succeeded. But my enthusiasm was checked by my anxiety, and I appeared rather like one doomed by slavery to toil in the mines, or any other unwholesome trade than an artist occupied by his favourite employment. Every night I was oppressed by a slow fever, and I became nervous to a most painful degree; the fall of a leaf startled me, and I shunned my fellow creatures as if I had been guilty of a crime. Sometimes I grew alarmed at the wreck I perceived that I had become; the energy of my purpose alone sustained me: my labours would soon end, and I believed that exercise and amusement would then drive away incipient disease; and I promised myself both of these when my creation should be complete.</p> </ch>
 
-<p><ch n=5 </p>>Chapter 5 </p></ch>
+<ch n="5"></ch>Chapter 5 
 <p>It was on a dreary night of November that I beheld the accomplishment of my toils. With an anxiety that almost amounted to agony, I collected the instruments of life around me, that I might infuse a spark of being into the lifeless thing that lay at my feet. It was already one in the morning; the rain pattered dismally against the panes, and my candle was nearly burnt out, when, by the glimmer of the half-extinguished light, I saw the dull yellow eye of the creature open; it breathed hard, and a convulsive motion agitated its limbs.</p>
 
 <p>How can I describe my emotions at this catastrophe, or how delineate the wretch whom with such infinite pains and care I had endeavoured to form? His limbs were in proportion, and I had selected his features as beautiful. Beautiful! Great God! His yellow skin scarcely covered the work of muscles and arteries beneath; his hair was of a lustrous black, and flowing; his teeth of a pearly whiteness; but these luxuriances only formed a more horrid contrast with his watery eyes, that seemed almost of the same colour as the dun-white sockets in which they were set, his shrivelled complexion and straight black lips.</p>
@@ -367,9 +372,10 @@ Doth close behind him tread.</p>
 
 <p><q>Is that all, my dear Henry? How could you suppose that my first thought would not fly towards those dear, dear friends whom I love and who are so deserving of my love?</q></p>
 
-<p><q>If this is your present temper, my friend, you will perhaps be glad to see a letter that has been lying here some days for you; it is from your cousin, I believe.</q></p>
+<p><q>If this is your present temper, my friend, you will perhaps be glad to see a letter that has been lying here some days for you; it is from your cousin, I believe.</q></p> 
+</ch>
 
-<p><ch n=6 </p>>Chapter 6 </p></ch>
+<ch n="6">Chapter 6 
 <p>Clerval then put the following letter into my hands. It was from my own Elizabeth:</p>
 
 <p>My dearest Cousin,</p>
@@ -415,7 +421,7 @@ Doth close behind him tread.</p>
 
 <p>We returned to our college on a Sunday afternoon: the peasants were dancing, and every one we met appeared gay and happy. My own spirits were high, and I bounded along with feelings of unbridled joy and hilarity.</p>
 
-<p><ch n=7 </p>>Chapter 7 </p></ch>
+<ch n="7">Chapter 7 
 <p>On my return, I found the following letter from my father:</p>
 
 <p><q>My dear Victor,</q></p>
@@ -514,9 +520,10 @@ Doth close behind him tread.</p>
 
 <p><q>How kind and generous you are! every one else believes in her guilt, and that made me wretched, for I knew that it was impossible: and to see every one else prejudiced in so deadly a manner rendered me hopeless and despairing.</q> She wept.</p>
 
-<p><q>Dearest niece,</q> said my father, <q>dry your tears. If she is, as you believe, innocent, rely on the justice of our laws, and the activity with which I shall prevent the slightest shadow of partiality.</q></p>
+<p><q>Dearest niece,</q> said my father, <q>dry your tears. If she is, as you believe, innocent, rely on the justice of our laws, and the activity with which I shall prevent the slightest shadow of partiality.</q></p> 
+</ch>
 
-<p><ch n=8 </p>>Chapter 8 </p></ch>
+<ch n="8">Chapter 8 
 <p>We passed a few sad hours until eleven o'clock, when the trial was to commence. My father and the rest of the family being obliged to attend as witnesses, I accompanied them to the court. During the whole of this wretched mockery of justice I suffered living torture. It was to be decided whether the result of my curiosity and lawless devices would cause the death of two of my fellow beings: one a smiling babe full of innocence and joy, the other far more dreadfully murdered, with every aggravation of infamy that could make the murder memorable in horror. Justine also was a girl of merit and possessed qualities which promised to render her life happy; now all was to be obliterated in an ignominious grave, and I the cause! A thousand times rather would I have confessed myself guilty of the crime ascribed to Justine, but I was absent when it was committed, and such a declaration would have been considered as the ravings of a madman and would not have exculpated her who suffered through me.</p>
 
 <p>The appearance of Justine was calm. She was dressed in mourning, and her countenance, always engaging, was rendered, by the solemnity of her feelings, exquisitely beautiful. Yet she appeared confident in innocence and did not tremble, although gazed on and execrated by thousands, for all the kindness which her beauty might otherwise have excited was obliterated in the minds of the spectators by the imagination of the enormity she was supposed to have committed. She was tranquil, yet her tranquillity was evidently constrained; and as her confusion had before been adduced as a proof of her guilt, she worked up her mind to an appearance of courage. When she entered the court she threw her eyes round it and quickly discovered where we were seated. A tear seemed to dim her eye when she saw us, but she quickly recovered herself, and a look of sorrowful affection seemed to attest her utter guiltlessness.</p>
@@ -582,8 +589,9 @@ Doth close behind him tread.</p>
 <p>From the tortures of my own heart, I turned to contemplate the deep and voiceless grief of my Elizabeth. This also was my doing! And my father's woe, and the desolation of that late so smiling home all was the work of my thrice-accursed hands! Ye weep, unhappy ones, but these are not your last tears! Again shall you raise the funeral wail, and the sound of your lamentations shall again and again be heard! Frankenstein, your son, your kinsman, your early, much-loved friend; he who would spend each vital drop of blood for your sakes, who has no thought nor sense of joy except as it is mirrored also in your dear countenances, who would fill the air with blessings and spend his life in serving you--he bids you weep, to shed countless tears; happy beyond his hopes, if thus inexorable fate be satisfied, and if the destruction pause before the peace of the grave have succeeded to your sad torments!</p>
 
 <p>Thus spoke my prophetic soul, as, torn by remorse, horror, and despair, I beheld those I loved spend vain sorrow upon the graves of William and Justine, the first hapless victims to my unhallowed arts.</p>
+</ch>
 
-<p><ch n=9 </p>>Chapter 9 </p></ch>
+<ch n="9">Chapter 9
 <p>Nothing is more painful to the human mind than, after the feelings have been worked up by a quick succession of events, the dead calmness of inaction and certainty which follows and deprives the soul both of hope and fear. Justine died, she rested, and I was alive. The blood flowed freely in my veins, but a weight of despair and remorse pressed on my heart which nothing could remove. Sleep fled from my eyes; I wandered like an evil spirit, for I had committed deeds of mischief beyond description horrible, and more, much more (I persuaded myself) was yet behind. Yet my heart overflowed with kindness and the love of virtue. I had begun life with benevolent intentions and thirsted for the moment when I should put them in practice and make myself useful to my fellow beings. Now all was blasted; instead of that serenity of conscience which allowed me to look back upon the past with self-satisfaction, and from thence to gather promise of new hopes, I was seized by remorse and the sense of guilt, which hurried me away to a hell of intense tortures such as no language can describe.</p>
 
 <p>This state of mind preyed upon my health, which had perhaps never entirely recovered from the first shock it had sustained. I shunned the face of man; all sound of joy or complacency was torture to me; solitude was my only consolation--deep, dark, deathlike solitude.</p>
@@ -614,9 +622,9 @@ Doth close behind him tread.</p>
 
 <p>A tingling long-lost sense of pleasure often came across me during this journey. Some turn in the road, some new object suddenly perceived and recognised, reminded me of days gone by, and were associated with the lighthearted gaiety of boyhood. The very winds whispered in soothing accents, and maternal Nature bade me weep no more. Then again the kindly influence ceased to act--I found myself fettered again to grief and indulging in all the misery of reflection. Then I spurred on my animal, striving so to forget the world, my fears, and more than all, myself--or, in a more desperate fashion, I alighted and threw myself on the grass, weighed down by horror and despair.</p>
 
-<p>At length I arrived at the village of Chamounix. Exhaustion succeeded to the extreme fatigue both of body and of mind which I had endured. For a short space of time I remained at the window watching the pallid lightnings that played above Mont Blanc and listening to the rushing of the Arve, which pursued its noisy way beneath. The same lulling sounds acted as a lullaby to my too keen sensations; when I placed my head upon my pillow, sleep crept over me; I felt it as it came and blessed the giver of oblivion.</p>
+    <p>At length I arrived at the village of Chamounix. Exhaustion succeeded to the extreme fatigue both of body and of mind which I had endured. For a short space of time I remained at the window watching the pallid lightnings that played above Mont Blanc and listening to the rushing of the Arve, which pursued its noisy way beneath. The same lulling sounds acted as a lullaby to my too keen sensations; when I placed my head upon my pillow, sleep crept over me; I felt it as it came and blessed the giver of oblivion.</p></ch>
 
-<p><ch n=10</p>>Chapter 10</p></ch>
+<ch n="10">Chapter 10
 <p>I spent the following day roaming through the valley. I stood beside the sources of the Arveiron, which take their rise in a glacier, that with slow pace is advancing down from the summit of the hills to barricade the valley. The abrupt sides of vast mountains were before me; the icy wall of the glacier overhung me; a few shattered pines were scattered around; and the solemn silence of this glorious presence-chamber of imperial Nature was broken only by the brawling waves or the fall of some vast fragment, the thunder sound of the avalanche or the cracking, reverberated along the mountains, of the accumulated ice, which, through the silent working of immutable laws, was ever and anon rent and torn, as if it had been but a plaything in their hands. These sublime and magnificent scenes afforded me the greatest consolation that I was capable of receiving. They elevated me from all littleness of feeling, and although they did not remove my grief, they subdued and tranquillised it. In some degree, also, they diverted my mind from the thoughts over which it had brooded for the last month. I retired to rest at night; my slumbers, as it were, waited on and ministered to by the assemblance of grand shapes which I had contemplated during the day. They congregated round me; the unstained snowy mountain-top, the glittering pinnacle, the pine woods, and ragged bare ravine, the eagle, soaring amidst the clouds--they all gathered round me and bade me be at peace.</p>
 
 <p>Where had they fled when the next morning I awoke? All of soul-inspiriting fled with sleep, and dark melancholy clouded every thought. The rain was pouring in torrents, and thick mists hid the summits of the mountains, so that I even saw not the faces of those mighty friends. Still I would penetrate their misty veil and seek them in their cloudy retreats. What were rain and storm to me? My mule was brought to the door, and I resolved to ascend to the summit of Montanvert. I remembered the effect that the view of the tremendous and ever-moving glacier had produced upon my mind when I first saw it. It had then filled me with a sublime ecstasy that gave wings to the soul and allowed it to soar from the obscure world to light and joy. The sight of the awful and majestic in nature had indeed always the effect of solemnising my mind and causing me to forget the passing cares of life. I determined to go without a guide, for I was well acquainted with the path, and the presence of another would destroy the solitary grandeur of the scene.</p>
@@ -657,8 +665,9 @@ Man's yesterday may ne--er be like his morrow;
 <p><q>Thus I relieve thee, my creator,</q> he said, and placed his hated hands before my eyes, which I flung from me with violence; <q>thus I take from thee a sight which you abhor. Still thou canst listen to me and grant me thy compassion. By the virtues that I once possessed, I demand this from you. Hear my tale; it is long and strange, and the temperature of this place is not fitting to your fine sensations; come to the hut upon the mountain. The sun is yet high in the heavens; before it descends to hide itself behind your snowy precipices and illuminate another world, you will have heard my story and can decide. On you it rests, whether I quit for ever the neighbourhood of man and lead a harmless life, or become the scourge of your fellow creatures and the author of your own speedy ruin.</q></p>
 
 <p>As he said this he led the way across the ice; I followed. My heart was full, and I did not answer him, but as I proceeded, I weighed the various arguments that he had used and determined at least to listen to his tale. I was partly urged by curiosity, and compassion confirmed my resolution. I had hitherto supposed him to be the murderer of my brother, and I eagerly sought a confirmation or denial of this opinion. For the first time, also, I felt what the duties of a creator towards his creature were, and that I ought to render him happy before I complained of his wickedness. These motives urged me to comply with his demand. We crossed the ice, therefore, and ascended the opposite rock. The air was cold, and the rain again began to descend; we entered the hut, the fiend with an air of exultation, I with a heavy heart and depressed spirits. But I consented to listen, and seating myself by the fire which my odious companion had lighted, he thus began his tale.</p>
-
-<p><ch n=11</p>>Chapter 11</p></ch>
+</ch>
+    
+<ch n="11">Chapter 11
 <p>It is with considerable difficulty that I remember the original era of my being; all the events of that period appear confused and indistinct. A strange multiplicity of sensations seized me, and I saw, felt, heard, and smelt at the same time; and it was, indeed, a long time before I learned to distinguish between the operations of my various senses. By degrees, I remember, a stronger light pressed upon my nerves, so that I was obliged to shut my eyes. Darkness then came over me and troubled me, but hardly had I felt this when, by opening my eyes, as I now suppose, the light poured in upon me again. I walked and, I believe, descended, but I presently found a great alteration in my sensations. Before, dark and opaque bodies had surrounded me, impervious to my touch or sight; but I now found that I could wander on at liberty, with no obstacles which I could not either surmount or avoid. The light became more and more oppressive to me, and the heat wearying me as I walked, I sought a place where I could receive shade. This was the forest near Ingolstadt; and here I lay by the side of a brook resting from my fatigue, until I felt tormented by hunger and thirst. This roused me from my nearly dormant state, and I ate some berries which I found hanging on the trees or lying on the ground. I slaked my thirst at the brook, and then lying down, was overcome by sleep.</p>
 
 <p>It was dark when I awoke; I felt cold also, and half frightened, as it were, instinctively, finding myself so desolate. Before I had quitted your apartment, on a sensation of cold, I had covered myself with some clothes, but these were insufficient to secure me from the dews of night. I was a poor, helpless, miserable wretch; I knew, and could distinguish, nothing; but feeling pain invade me on all sides, I sat down and wept.</p>
@@ -694,8 +703,9 @@ Man's yesterday may ne--er be like his morrow;
 <p>Night quickly shut in, but to my extreme wonder, I found that the cottagers had a means of prolonging light by the use of tapers, and was delighted to find that the setting of the sun did not put an end to the pleasure I experienced in watching my human neighbours. In the evening the young girl and her companion were employed in various occupations which I did not understand; and the old man again took up the instrument which produced the divine sounds that had enchanted me in the morning. So soon as he had finished, the youth began, not to play, but to utter sounds that were monotonous, and neither resembling the harmony of the old man's instrument nor the songs of the birds; I since found that he read aloud, but at that time I knew nothing of the science of words or letters.</p>
 
 <p><q>The family, after having been thus occupied for a short time, extinguished their lights and retired, as I conjectured, to rest.</q></p>
+</ch>
 
-<p><ch n=12</p>>Chapter 12</p></ch>
+<ch n="12">Chapter 12
 <p>I lay on my straw, but I could not sleep. I thought of the occurrences of the day. What chiefly struck me was the gentle manners of these people, and I longed to join them, but dared not. I remembered too well the treatment I had suffered the night before from the barbarous villagers, and resolved, whatever course of conduct I might hereafter think it right to pursue, that for the present I would remain quietly in my hovel, watching and endeavouring to discover the motives which influenced their actions.</p>
 
 <p>The cottagers arose the next morning before the sun. The young woman arranged the cottage and prepared the food, and the youth departed after the first meal.</p>
@@ -733,8 +743,9 @@ Man's yesterday may ne--er be like his morrow;
 <p>These thoughts exhilarated me and led me to apply with fresh ardour to the acquiring the art of language. My organs were indeed harsh, but supple; and although my voice was very unlike the soft music of their tones, yet I pronounced such words as I understood with tolerable ease. It was as the ass and the lap-dog; yet surely the gentle ass whose intentions were affectionate, although his manners were rude, deserved better treatment than blows and execration.</p>
 
 <p><q>The pleasant showers and genial warmth of spring greatly altered the aspect of the earth. Men who before this change seemed to have been hid in caves dispersed themselves and were employed in various arts of cultivation. The birds sang in more cheerful notes, and the leaves began to bud forth on the trees. Happy, happy earth! Fit habitation for gods, which, so short a time before, was bleak, damp, and unwholesome. My spirits were elevated by the enchanting appearance of nature; the past was blotted from my memory, the present was tranquil, and the future gilded by bright rays of hope and anticipations of joy.</q></p>
+</ch>
 
-<p><ch n=13</p>>Chapter 13</p></ch>
+<ch n="13">Chapter 13
 <p>I now hasten to the more moving part of my story. I shall relate events that impressed me with feelings which, from what I had been, have made me what I am.</p>
 
 <p>Spring advanced rapidly; the weather became fine and the skies cloudless. It surprised me that what before was desert and gloomy should now bloom with the most beautiful flowers and verdure. My senses were gratified and refreshed by a thousand scents of delight and a thousand sights of beauty.</p>
@@ -778,8 +789,9 @@ Man's yesterday may ne--er be like his morrow;
 <p>But where were my friends and relations? No father had watched my infant days, no mother had blessed me with smiles and caresses; or if they had, all my past life was now a blot, a blind vacancy in which I distinguished nothing. From my earliest remembrance I had been as I then was in height and proportion. I had never yet seen a being resembling me or who claimed any intercourse with me. What was I? The question again recurred, to be answered only with groans.</p>
 
 <p><q>I will soon explain to what these feelings tended, but allow me now to return to the cottagers, whose story excited in me such various feelings of indignation, delight, and wonder, but which all terminated in additional love and reverence for my protectors (for so I loved, in an innocent, half-painful self-deceit, to call them).</q></p>
-
-<p><ch n=14</p>>Chapter 14</p></ch>
+</ch>
+    
+<ch n="14">Chapter 14
 <p>Some time elapsed before I learned the history of my friends. It was one which could not fail to impress itself deeply on my mind, unfolding as it did a number of circumstances, each interesting and wonderful to one so utterly inexperienced as I was.</p>
 
 <p>The name of the old man was De Lacey. He was descended from a good family in France, where he had lived for many years in affluence, respected by his superiors and beloved by his equals. His son was bred in the service of his country, and Agatha had ranked with ladies of the highest distinction. A few months before my arrival they had lived in a large and luxurious city called Paris, surrounded by friends and possessed of every enjoyment which virtue, refinement of intellect, or taste, accompanied by a moderate fortune, could afford.</p>
@@ -819,8 +831,9 @@ Man's yesterday may ne--er be like his morrow;
 <p>When alone, Safie resolved in her own mind the plan of conduct that it would become her to pursue in this emergency. A residence in Turkey was abhorrent to her; her religion and her feelings were alike averse to it. By some papers of her father which fell into her hands she heard of the exile of her lover and learnt the name of the spot where he then resided. She hesitated some time, but at length she formed her determination. Taking with her some jewels that belonged to her and a sum of money, she quitted Italy with an attendant, a native of Leghorn, but who understood the common language of Turkey, and departed for Germany.</p>
 
 <p>She arrived in safety at a town about twenty leagues from the cottage of De Lacey, when her attendant fell dangerously ill. Safie nursed her with the most devoted affection, but the poor girl died, and the Arabian was left alone, unacquainted with the language of the country and utterly ignorant of the customs of the world. She fell, however, into good hands. The Italian had mentioned the name of the spot for which they were bound, and after her death the woman of the house in which they had lived took care that Safie should arrive in safety at the cottage of her lover.</p>
-
-<p><ch n=15</p>>Chapter 15</p></ch>
+</ch>
+    
+<ch n="15">Chapter 15
 <p>Such was the history of my beloved cottagers. It impressed me deeply. I learned, from the views of social life which it developed, to admire their virtues and to deprecate the vices of mankind.</p>
 
 <p>As yet I looked upon crime as a distant evil, benevolence and generosity were ever present before me, inciting within me a desire to become an actor in the busy scene where so many admirable qualities were called forth and displayed. But in giving an account of the progress of my intellect, I must not omit a circumstance which occurred in the beginning of the month of August of the same year.</p>
@@ -896,8 +909,9 @@ Man's yesterday may ne--er be like his morrow;
 <p><q>Great God!</q> exclaimed the old man. <q>Who are you?</q></p>
 
 <p>At that instant the cottage door was opened, and Felix, Safie, and Agatha entered. Who can describe their horror and consternation on beholding me? Agatha fainted, and Safie, unable to attend to her friend, rushed out of the cottage. Felix darted forward, and with supernatural force tore me from his father, to whose knees I clung, in a transport of fury, he dashed me to the ground and struck me violently with a stick. I could have torn him limb from limb, as the lion rends the antelope. But my heart sank within me as with bitter sickness, and I refrained. I saw him on the point of repeating his blow, when, overcome by pain and anguish, I quitted the cottage, and in the general tumult escaped unperceived to my hovel.</p>
+</ch>
 
-<p><ch n=16 </p>>Chapter 16 </p></ch>
+<ch n="16">Chapter 16
 <p>Cursed, cursed creator! Why did I live? Why, in that instant, did I not extinguish the spark of existence which you had so wantonly bestowed? I know not; despair had not yet taken possession of me; my feelings were those of rage and revenge. I could with pleasure have destroyed the cottage and its inhabitants and have glutted myself with their shrieks and misery.</p>
 
 <p>When night came I quitted my retreat and wandered in the wood; and now, no longer restrained by the fear of discovery, I gave vent to my anguish in fearful howlings. I was like a wild beast that had broken the toils, destroying the objects that obstructed me and ranging through the wood with a stag-like swiftness. Oh! What a miserable night I passed! The cold stars shone in mockery, and the bare trees waved their branches above me; now and then the sweet voice of a bird burst forth amidst the universal stillness. All, save I, were at rest or in enjoyment; I, like the arch-fiend, bore a hell within me, and finding myself unsympathised with, wished to tear up the trees, spread havoc and destruction around me, and then to have sat down and enjoyed the ruin.</p>
@@ -971,8 +985,9 @@ Man's yesterday may ne--er be like his morrow;
 <p>The sleeper stirred; a thrill of terror ran through me. Should she indeed awake, and see me, and curse me, and denounce the murderer? Thus would she assuredly act if her darkened eyes opened and she beheld me. The thought was madness; it stirred the fiend within me--not I, but she, shall suffer; the murder I have committed because I am for ever robbed of all that she could give me, she shall atone. The crime had its source in her; be hers the punishment! Thanks to the lessons of Felix and the sanguinary laws of man, I had learned now to work mischief. I bent over her and placed the portrait securely in one of the folds of her dress. She moved again, and I fled.</p>
 
 <p>For some days I haunted the spot where these scenes had taken place, sometimes wishing to see you, sometimes resolved to quit the world and its miseries for ever. At length I wandered towards these mountains, and have ranged through their immense recesses, consumed by a burning passion which you alone can gratify. We may not part until you have promised to comply with my requisition. I am alone and miserable; man will not associate with me; but one as deformed and horrible as myself would not deny herself to me. My companion must be of the same species and have the same defects. This being you must create.</p>
-
-<p><ch n=17 </p>>Chapter 17 </p></ch>
+</ch>
+    
+<ch n="17">Chapter 17
 <p>The being finished speaking and fixed his looks upon me in the expectation of a reply. But I was bewildered, perplexed, and unable to arrange my ideas sufficiently to understand the full extent of his proposition. He continued,</p>
 
 <p>You must create a female for me with whom I can live in the interchange of those sympathies necessary for my being. This you alone can do, and I demand it of you as a right which you must not refuse to concede.</p>
@@ -1014,8 +1029,9 @@ Man's yesterday may ne--er be like his morrow;
 <p>These were wild and miserable thoughts, but I cannot describe to you how the eternal twinkling of the stars weighed upon me and how I listened to every blast of wind as if it were a dull ugly siroc on its way to consume me.</p>
 
 <p>Morning dawned before I arrived at the village of Chamounix; I took no rest, but returned immediately to Geneva. Even in my own heart I could give no expression to my sensations--they weighed on me with a mountain's weight and their excess destroyed my agony beneath them. Thus I returned home, and entering the house, presented myself to the family. My haggard and wild appearance awoke intense alarm, but I answered no question, scarcely did I speak. I felt as if I were placed under a ban--as if I had no right to claim their sympathies--as if never more might I enjoy companionship with them. Yet even thus I loved them to adoration; and to save them, I resolved to dedicate myself to my most abhorred task. The prospect of such an occupation made every other circumstance of existence pass before me like a dream, and that thought only had to me the reality of life.</p>
-
-<p><ch n=18 </p>>Chapter 18 </p></ch>
+</ch>
+    
+<ch n="18">Chapter 18
 <p>recommence my work. I feared the vengeance of the disappointed fiend, yet I was unable to overcome my repugnance to the task which was enjoined me. I found that I could not compose a female without again devoting several months to profound study and laborious disquisition. I had heard of some discoveries having been made by an English philosopher, the knowledge of which was material to my success, and I sometimes thought of obtaining my father's consent to visit England for this purpose; but I clung to every pretence of delay and shrank from taking the first step in an undertaking whose immediate necessity began to appear less absolute to me. A change indeed had taken place in me; my health, which had hitherto declined, was now much restored; and my spirits, when unchecked by the memory of my unhappy promise, rose proportionably. My father saw this change with pleasure, and he turned his thoughts towards the best method of eradicating the remains of my melancholy, which every now and then would return by fits, and with a devouring blackness overcast the approaching sunshine. At these moments I took refuge in the most perfect solitude. I passed whole days on the lake alone in a little boat, watching the clouds and listening to the rippling of the waves, silent and listless. But the fresh air and bright sun seldom failed to restore me to some degree of composure, and on my return I met the salutations of my friends with a readier smile and a more cheerful heart.</p>
 
 <p>It was after my return from one of these rambles that my father, calling me aside, thus addressed me,</p>
@@ -1074,8 +1090,9 @@ Unborrow--d from the eye.</p>
 <p>Our journey here lost the interest arising from beautiful scenery, but we arrived in a few days at Rotterdam, whence we proceeded by sea to England. It was on a clear morning, in the latter days of December, that I first saw the white cliffs of Britain. The banks of the Thames presented a new scene; they were flat but fertile, and almost every town was marked by the remembrance of some story. We saw Tilbury Fort and remembered the Spanish Armada, Gravesend, Woolwich, and Greenwich--places which I had heard of even in my country.</p>
 
 <p>At length we saw the numerous steeples of London, St. Paul's towering above all, and the Tower famed in English history.</p>
+</ch>
 
-<p><ch n=19</p>>Chapter 19</p></ch>
+<ch n="19">Chapter 19
 <p>London was our present point of rest; we determined to remain several months in this wonderful and celebrated city. Clerval desired the intercourse of the men of genius and talent who flourished at this time, but this was with me a secondary object; I was principally occupied with the means of obtaining the information necessary for the completion of my promise and quickly availed myself of the letters of introduction that I had brought with me, addressed to the most distinguished natural philosophers.</p>
 
 <p>If this journey had taken place during my days of study and happiness, it would have afforded me inexpressible pleasure. But a blight had come over my existence, and I only visited these people for the sake of the information they might give me on the subject in which my interest was so terribly profound. Company was irksome to me; when alone, I could fill my mind with the sights of heaven and earth; the voice of Henry soothed me, and I could thus cheat myself into a transitory peace. But busy, uninteresting, joyous faces brought back despair to my heart. I saw an insurmountable barrier placed between me and my fellow men; this barrier was sealed with the blood of William and Justine, and to reflect on the events connected with those names filled my soul with anguish.</p>
@@ -1121,8 +1138,9 @@ Unborrow--d from the eye.</p>
 <p>Thus situated, employed in the most detestable occupation, immersed in a solitude where nothing could for an instant call my attention from the actual scene in which I was engaged, my spirits became unequal; I grew restless and nervous. Every moment I feared to meet my persecutor. Sometimes I sat with my eyes fixed on the ground, fearing to raise them lest they should encounter the object which I so much dreaded to behold. I feared to wander from the sight of my fellow creatures lest when alone he should come to claim his companion.</p>
 
 <p>In the mean time I worked on, and my labour was already considerably advanced. I looked towards its completion with a tremulous and eager hope, which I dared not trust myself to question but which was intermixed with obscure forebodings of evil that made my heart sicken in my bosom.</p>
+</ch>
 
-<p><ch n=20</p>>Chapter 20</p></ch>
+<ch n="20">Chapter 20
 <p>I sat one evening in my laboratory; the sun had set, and the moon was just rising from the sea; I had not sufficient light for my employment, and I remained idle, in a pause of consideration of whether I should leave my labour for the night or hasten its conclusion by an unremitting attention to it. As I sat, a train of reflection occurred to me which led me to consider the effects of what I was now doing. Three years before, I was engaged in the same manner and had created a fiend whose unparalleled barbarity had desolated my heart and filled it for ever with the bitterest remorse. I was now about to form another being of whose dispositions I was alike ignorant; she might become ten thousand times more malignant than her mate and delight, for its own sake, in murder and wretchedness. He had sworn to quit the neighbourhood of man and hide himself in deserts, but she had not; and she, who in all probability was to become a thinking and reasoning animal, might refuse to comply with a compact made before her creation. They might even hate each other; the creature who already lived loathed his own deformity, and might he not conceive a greater abhorrence for it when it came before his eyes in the female form? She also might turn with disgust from him to the superior beauty of man; she might quit him, and he be again alone, exasperated by the fresh provocation of being deserted by one of his own species.</p>
 
 <p>Even if they were to leave Europe and inhabit the deserts of the new world, yet one of the first results of those sympathies for which the d--mon thirsted would be children, and a race of devils would be propagated upon the earth who might make the very existence of the species of man a condition precarious and full of terror. Had I right, for my own benefit, to inflict this curse upon everlasting generations? I had before been moved by the sophisms of the being I had created; I had been struck senseless by his fiendish threats; but now, for the first time, the wickedness of my promise burst upon me; I shuddered to think that future ages might curse me as their pest, whose selfishness had not hesitated to buy its own peace at the price, perhaps, of the existence of the whole human race.</p>
@@ -1196,8 +1214,9 @@ Unborrow--d from the eye.</p>
 <p>This answer startled me, but I presently recovered myself. I was innocent; that could easily be proved; accordingly I followed my conductor in silence and was led to one of the best houses in the town. I was ready to sink from fatigue and hunger, but being surrounded by a crowd, I thought it politic to rouse all my strength, that no physical debility might be construed into apprehension or conscious guilt. Little did I then expect the calamity that was in a few moments to overwhelm me and extinguish in horror and despair all fear of ignominy or death.</p>
 
 <p>I must pause here, for it requires all my fortitude to recall the memory of the frightful events which I am about to relate, in proper detail, to my recollection.</p>
+</ch>
 
-<p><ch n=21</p>>Chapter 21</p></ch>
+<ch n="21">Chapter 21
 <p>I was soon introduced into the presence of the magistrate, an old benevolent man with calm and mild manners. He looked upon me, however, with some degree of severity, and then, turning towards my conductors, he asked who appeared as witnesses on this occasion.</p>
 
 <p>About half a dozen men came forward; and, one being selected by the magistrate, he deposed that he had been out fishing the night before with his son and brother-in-law, Daniel Nugent, when, about ten o'clock, they observed a strong northerly blast rising, and they accordingly put in for port. It was a very dark night, as the moon had not yet risen; they did not land at the harbour, but, as they had been accustomed, at a creek about two miles below. He walked on first, carrying a part of the fishing tackle, and his companions followed him at some distance. As he was proceeding along the sands, he struck his foot against something and fell at his length on the ground. His companions came up to assist him, and by the light of their lantern they found that he had fallen on the body of a man, who was to all appearance dead. Their first supposition was that it was the corpse of some person who had been drowned and was thrown on shore by the waves, but on examination they found that the clothes were not wet and even that the body was not then cold. They instantly carried it to the cottage of an old woman near the spot and endeavoured, but in vain, to restore it to life. It appeared to be a handsome young man, about five and twenty years of age. He had apparently been strangled, for there was no sign of any violence except the black mark of fingers on his neck.</p>
@@ -1295,8 +1314,9 @@ Unborrow--d from the eye.</p>
 <p>Still, as I urged our leaving Ireland with such inquietude and impatience, my father thought it best to yield. We took our passage on board a vessel bound for Havre-de-Grace and sailed with a fair wind from the Irish shores. It was midnight. I lay on the deck looking at the stars and listening to the dashing of the waves. I hailed the darkness that shut Ireland from my sight, and my pulse beat with a feverish joy when I reflected that I should soon see Geneva. The past appeared to me in the light of a frightful dream; yet the vessel in which I was, the wind that blew me from the detested shore of Ireland, and the sea which surrounded me, told me too forcibly that I was deceived by no vision and that Clerval, my friend and dearest companion, had fallen a victim to me and the monster of my creation. I repassed, in my memory, my whole life; my quiet happiness while residing with my family in Geneva, the death of my mother, and my departure for Ingolstadt. I remembered, shuddering, the mad enthusiasm that hurried me on to the creation of my hideous enemy, and I called to mind the night in which he first lived. I was unable to pursue the train of thought; a thousand feelings pressed upon me, and I wept bitterly.</p>
 
 <p>Ever since my recovery from the fever, I had been in the custom of taking every night a small quantity of laudanum, for it was by means of this drug only that I was enabled to gain the rest necessary for the preservation of life. Oppressed by the recollection of my various misfortunes, I now swallowed double my usual quantity and soon slept profoundly. But sleep did not afford me respite from thought and misery; my dreams presented a thousand objects that scared me. Towards morning I was possessed by a kind of nightmare; I felt the fiend's grasp in my neck and could not free myself from it; groans and cries rang in my ears. My father, who was watching over me, perceiving my restlessness, awoke me; the dashing waves were around, the cloudy sky above, the fiend was not here: a sense of security, a feeling that a truce was established between the present hour and the irresistible, disastrous future imparted to me a kind of calm forgetfulness, of which the human mind is by its structure peculiarly susceptible.</p>
+</ch>
 
-<p><ch n=22 </p>>Chapter 22 </p></ch>
+<ch n="22">Chapter 22
 <p>The voyage came to an end. We landed, and proceeded to Paris. I soon found that I had overtaxed my strength and that I must repose before I could continue my journey. My father's care and attentions were indefatigable, but he did not know the origin of my sufferings and sought erroneous methods to remedy the incurable ill. He wished me to seek amusement in society. I abhorred the face of man. Oh, not abhorred! They were my brethren, my fellow beings, and I felt attracted even to the most repulsive among them, as to creatures of an angelic nature and celestial mechanism. But I felt that I had no right to share their intercourse. I had unchained an enemy among them whose joy it was to shed their blood and to revel in their groans. How they would, each and all, abhor me and hunt me from the world, did they know my unhallowed acts and the crimes which had their source in me!</p>
 
 <p>My father yielded at length to my desire to avoid society and strove by various arguments to banish my despair. Sometimes he thought that I felt deeply the degradation of being obliged to answer a charge of murder, and he endeavoured to prove to me the futility of pride.</p>
@@ -1377,8 +1397,9 @@ Unborrow--d from the eye.</p>
 <p>The sun sank lower in the heavens; we passed the river Drance and observed its path through the chasms of the higher and the glens of the lower hills. The Alps here come closer to the lake, and we approached the amphitheatre of mountains which forms its eastern boundary. The spire of Evian shone under the woods that surrounded it and the range of mountain above mountain by which it was overhung.</p>
 
 <p>The wind, which had hitherto carried us along with amazing rapidity, sank at sunset to a light breeze; the soft air just ruffled the water and caused a pleasant motion among the trees as we approached the shore, from which it wafted the most delightful scent of flowers and hay. The sun sank beneath the horizon as we landed, and as I touched the shore I felt those cares and fears revive which soon were to clasp me and cling to me for ever.</p>
+</ch>
 
-<p><ch n=23 </p>>Chapter 23 </p></ch>
+<ch n="23">>Chapter 23
 <p>It was eight o--clock when we landed; we walked for a short time on the shore, enjoying the transitory light, and then retired to the inn and contemplated the lovely scene of waters, woods, and mountains, obscured in darkness, yet still displaying their black outlines.</p>
 
 <p>The wind, which had fallen in the south, now rose with great violence in the west. The moon had reached her summit in the heavens and was beginning to descend; the clouds swept across it swifter than the flight of the vulture and dimmed her rays, while the lake reflected the scene of the busy heavens, rendered still busier by the restless waves that were beginning to rise. Suddenly a heavy storm of rain descended.</p>
@@ -1437,9 +1458,10 @@ Unborrow--d from the eye.</p>
 
 <p><q>Man,</q> I cried, <q>how ignorant art thou in thy pride of wisdom! Cease; you know not what it is you say.</q></p>
 
-<p>I broke from the house angry and disturbed and retired to meditate on some other mode of action.</p>
+    <p>I broke from the house angry and disturbed and retired to meditate on some other mode of action.</p> 
+</ch>
 
-<p><ch n=24</p>>Chapter 24</p></ch>
+<ch n="24">Chapter 24
 <p>My present situation was one in which all voluntary thought was swallowed up and lost. I was hurried away by fury; revenge alone endowed me with strength and composure; it moulded my feelings and allowed me to be calculating and calm at periods when otherwise delirium or death would have been my portion.</p>
 
 <p>My first resolution was to quit Geneva for ever; my country, which, when I was happy and beloved, was dear to me, now, in my adversity, became hateful. I provided myself with a sum of money, together with a few jewels which had belonged to my mother, and departed.</p>
@@ -1602,6 +1624,5 @@ Unborrow--d from the eye.</p>
 
 <p>But soon,<q> he cried with sad and solemn enthusiasm, </q>I shall die, and what I now feel be no longer felt. Soon these burning miseries will be extinct. I shall ascend my funeral pile triumphantly and exult in the agony of the torturing flames. The light of that conflagration will fade away; my ashes will be swept into the sea by the winds. My spirit will sleep in peace, or if it thinks, it will not surely think thus. Farewell.--</p>
 
-<p>He sprang from the cabin-window as he said this, upon the ice raft which lay close to the vessel. He was soon borne away by the waves and lost in darkness and distance.</p>
-
-</Frankenstein_Project>
+    <p>He sprang from the cabin-window as he said this, upon the ice raft which lay close to the vessel. He was soon borne away by the waves and lost in darkness and distance.</p> </ch>
+</FrankensteinProject>
