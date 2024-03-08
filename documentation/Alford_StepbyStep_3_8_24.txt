@@ -1,0 +1,26 @@
+Rin Alford
+Checkpoint 3 Documentation
+3/8/2024
+
+1. Added the encoding
+2. Fixed the letter and chapter attribute values (were missing quotations)
+    - Searched <ch n=(\d+)>
+    - Replaced with <ch n="\1">
+    - Searched <letter n=(\d)>
+    - Replaced with <letter n="\1">
+3. Went further into the text to fix chapters
+    - Had to delete the <p></p> surrounding the chapter
+    - Moved </ch> to the end of the chapter
+    *Most of this was done manually but some used the Find/Replace function
+         - Searched <ch n=(\d+)>
+         - Replaced with <ch n="\1">*
+!Correction:
+    - I was able to adjust the Find/Replace command
+        Find: <ch n=(\d+)</p>>
+        Replace: <ch n="\1">
+*Still had to manually correct chapters 4 through 10
+*Also still manually deleted <p></p> and moved </ch>
+
+4. Created and attached schema to mark-up
+
+
