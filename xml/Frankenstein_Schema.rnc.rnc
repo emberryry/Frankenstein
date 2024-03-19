@@ -8,14 +8,19 @@ Title = attribute Title {text}
 Author = attribute Author {text}
 #can leave title and author alone
 Contents = attribute contents {text}
-Letter = attribute letter {n, (text)*}
-Chapter = attribute ch {n, (text)*}
+
+
+
 #letter and chapter are wrong because n is followed by paragrapghs not text
 p = attribute p {text}
 #some of p may be in quotes
+
+Letter = element letter {n, (text)*}
+Chapter = element ch {n, (text)*}
+
 Quote = attribute q {text}
+
 n = attribute n {xsd:integer}
 
-#all of these are elements not attributes
 
 #include loc and date 
