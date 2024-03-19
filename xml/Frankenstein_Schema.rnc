@@ -1,14 +1,21 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
-start= root
-root = element root {FrankensteinProject}
-FrankensteinProject = element FrankensteinProject {Title, Author, Contents, Letter, Chapter, Paragraphs, Quote*}
+start= FrankensteinProject
+FrankensteinProject = element FrankensteinProject {Title, Author, Contents, Letter, Chapter, p, Quote*}
+#need to say that there are a mixture of para, ch, letter, etc
+
 Title = attribute Title {text}
 Author = attribute Author {text}
+#can leave title and author alone
 Contents = attribute contents {text}
 Letter = attribute letter {n, (text)*}
 Chapter = attribute ch {n, (text)*}
-Paragraphs = attribute p {text}
+#letter and chapter are wrong because n is followed by paragrapghs not text
+p = attribute p {text}
+#some of p may be in quotes
 Quote = attribute q {text}
 n = attribute n {xsd:integer}
 
+#all of these are elements not attributes
+
+#include loc and date 

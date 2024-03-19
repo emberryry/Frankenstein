@@ -2,11 +2,12 @@
 
 <?xml-model href="Frankenstein_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 <FrankensteinProject>
-    
+    <!-- need to change things to have certain depths i.e. "paragraphs in letters"-->
 <Title>Frankenstein;
     or, the Modern Prometheus</Title>
 <Author>by Mary Wollstonecraft (Godwin) Shelley</Author>
 <contents>CONTENTS</contents>
+    <!-- contents need to wrap around chapters-->
 <letter n="1">Letter 1</letter>
 <letter n="2">Letter 2</letter>
 <letter n="3">Letter 3</letter>
