@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="Frankenstein_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<!--<?xml-model href="Frankenstein_Schema.rnc" type="application/relax-ng-compact-syntax"?>-->
+
 <FrankensteinProject>
     <!-- need to change things to have certain depths i.e. "paragraphs in letters"-->
 <Title>Frankenstein;

@@ -1,0 +1,31 @@
+body 
+{
+   background: #079500;
+   color: black;
+}
+    h1
+    {
+        font-size: 40px;
+        text-align: center;
+    }
+        nav 
+        {
+            background-color: #CFD5CB;
+            text-align: center;
+        }
+        nav a 
+        {
+            color: black;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+        nav a:hover 
+        {
+            background-color: #555;
+        }
+            #team-section 
+            {
+            display: none;
+            padding: 20px;
+            }
