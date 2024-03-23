@@ -3,37 +3,60 @@ body
    background: #079500;
    color: black;
 }
+
+    nav 
+    {
+        background-color: #CFD5CB; /* nav bar background color */
+        text-align: center; /* aligns nav bar text */
+    }
+    
+        nav div 
+        {
+            padding: 14px 20px; /* 14px is height of the nav bar -- 20px is how far apart words are to each other in nav bar*/
+            display: inline-block;
+        }
+        
+        nav a 
+        {
+            text-decoration: none;
+            color: black; /* text color on nav bar */
+        }
+        
+        nav div:hover 
+        {
+            background-color: #555;
+        }
+
+        
+    .content 
+    {
+      display: none;
+    }
+    
+    .content:target 
+    {
+      display: block;
+    }
+
+
     h1
     {
         font-size: 40px;
         text-align: center;
     }
-        nav 
-        {
-            background-color: #CFD5CB;
-            text-align: center;
-        }
-        nav a 
-        {
-            color: black;
-            text-decoration: none;
-            padding: 14px 20px;
-            display: inline-block;
-        }
-        nav a:hover 
-        {
-            background-color: #555;
-        }
+    
     h2
     {
         font-size: 40px;
         text-align: center;
     }
+    
     h3
     {
         font-size: 40px;
         text-align: center;
     }
+    
     h4
     {
         font-size: 40px;
