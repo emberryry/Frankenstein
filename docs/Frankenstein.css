@@ -24,8 +24,18 @@ body
         {
             background-color: #555;
         }
-            #team-section 
-            {
-            display: none;
-            padding: 20px;
-            }
+    h2
+    {
+        font-size: 40px;
+        text-align: center;
+    }
+    h3
+    {
+        font-size: 40px;
+        text-align: center;
+    }
+    h4
+    {
+        font-size: 40px;
+        text-align: center;
+    }
