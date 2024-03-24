@@ -18,6 +18,7 @@ body
         
         nav a 
         {
+            font-size: 20px;
             text-decoration: none;
             color: black; /* text color on nav bar */
         }
@@ -30,19 +31,47 @@ body
         
     .content 
     {
-      display: none;
+        display: none;
     }
     
     .content:target 
     {
-      display: block;
+        display: block;
     }
-
+    
+    .border
+    {
+        width: 1470px;
+        height: auto;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    
+    .bolt-left 
+    {
+        width: 80px;
+        height: auto;
+        position: absolute;
+        top: 35px;
+        left: 505px;
+    }
 
     h1
     {
-        font-size: 40px;
+        font-size: 50px;
         text-align: center;
+        text-decoration: underline;
+        margin-top: 50px;
+    }
+    
+    .bolt-right 
+    {
+        width: 80px;
+        height: auto;
+        position: absolute;
+        top: 37px;
+        right: 510px;
     }
     
     h2
@@ -61,4 +90,11 @@ body
     {
         font-size: 40px;
         text-align: center;
+    }
+    
+    h5
+    {
+        font-size: 20px;
+        text-decoration: underline;
+        text-align: left;
     }
