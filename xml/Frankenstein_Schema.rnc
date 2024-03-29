@@ -1,27 +1,28 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start= FrankensteinProject
-FrankensteinProject = element FrankensteinProject {Title, Author, Contents, loc, date, letter, ch, p, q*}
+FrankensteinProject = element FrankensteinProject {Title, Author, Contents, letter*, ch*, body}
 #need to say that there are a mixture of para, ch, letter, etc
 
-Title = attribute Title {text}
-Author = attribute Author {text}
+Title = element Title {text}
+Author = element Author {text}
 #can leave title and author alone
-Contents = attribute contents {text}
-
-
+Contents = element contents {text}
+body = element body {letter*, ch*}
 
 #letter and chapter are wrong because n is followed by paragrapghs not text
-p = attribute p {text}
+p = element p {(text| q| d| loc)+}
 #some of p may be in quotes
 
-letter = element letter {n, p*}
-ch = element ch {n, p*}
+letter = element letter {(text| n| p| loc| d)+}
+ch = element ch {(n| p| text)+}
 
-q = attribute q {text}
+q = element q {text}
 
 n = attribute n {xsd:integer}
 
-date = element date {text, n*}
+d = element d {text, n*}
 loc = element loc {text}
 #include loc and date 
+
+
