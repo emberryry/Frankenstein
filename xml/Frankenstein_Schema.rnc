@@ -1,7 +1,7 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start= FrankensteinProject
-FrankensteinProject = element FrankensteinProject {Title, Author, Contents, Letter, Chapter, p, Quote*}
+FrankensteinProject = element FrankensteinProject {Title, Author, Contents, letter, ch, p, q*}
 #need to say that there are a mixture of para, ch, letter, etc
 
 Title = attribute Title {text}
@@ -15,10 +15,10 @@ Contents = attribute contents {text}
 p = attribute p {text}
 #some of p may be in quotes
 
-Letter = element letter {n, (text),p*}
-Chapter = element ch {n, (text)*}
+letter = element letter {n, p*}
+ch = element ch {n, p*}
 
-Quote = attribute q {text}
+q = attribute q {text}
 
 n = attribute n {xsd:integer}
 
