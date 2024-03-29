@@ -1,5 +1,5 @@
 
-declare option saxon:output "method=text";
+declare option saxon:output "method=html";
 declare variable $project := collection("../xml/?.select=*.xml");
 declare variable $frank := doc("../xml/Frankenstein_MarkUp.xml");
 declare variable $linefeed := "&#10;";
@@ -36,7 +36,7 @@ order by $para_count, $chapLength
 (:return concat("Chapter ", $chapNumber, " contains ", $para_count , 
 " paragraphs, and is ", $chapLength, " characters long.", $linefeed):)
 
-return concat($chapNumber, $tab, $para_count, $tab, $chapLength, $linefeed)
+return (<tr><td>{$chapNumber}</td><td>{$para_count}</td><td>{$chapLength}</td></tr>)
 
 (:return $para_count div $chap_count:)
 (:Found the average of how many pargarpagh there are per chapter:)
