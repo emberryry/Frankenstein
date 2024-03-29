@@ -15,7 +15,7 @@ Contents = attribute contents {text}
 p = attribute p {text}
 #some of p may be in quotes
 
-Letter = element letter {n, (text)*}
+Letter = element letter {n, (text),p*}
 Chapter = element ch {n, (text)*}
 
 Quote = attribute q {text}
