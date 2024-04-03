@@ -7,17 +7,19 @@ FrankensteinProject = element FrankensteinProject {Title, Author, Contents, lett
 Title = element Title {text}
 Author = element Author {text}
 #can leave title and author alone
-Contents = element contents {text}
+Contents = element Contents {text}
 body = element body {letter*, ch*}
 
 #letter and chapter are wrong because n is followed by paragrapghs not text
-p = element p {(text| q| d| loc)+}
+p = element p {type?, (text| q| d| loc)+}
+type = attribute type {text}
 #some of p may be in quotes
 
 letter = element letter {(text| n| p| loc| d)+}
 ch = element ch {(n| p| text)+}
 
-q = element q {text}
+q = element q {speaker?, text}
+speaker = attribute speaker {text}
 
 n = attribute n {xsd:integer}
 
