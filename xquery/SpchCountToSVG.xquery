@@ -1,17 +1,23 @@
-declare variable $speech := //speech;
-declare variable $speakers := $speech//speaker/data(@char) => distinct-values();
+(:generates speechcount.html :)
+
+declare option saxon:output "method=html";
+
+declare variable $quote := doc('../xml/Frankenstein_MarkUp.xml')//q;
+declare variable $speakers := $quote//data(@speaker) => distinct-values();
 declare variable $xspacer := 10;
 declare variable $yspacer := 25;
-
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+<html>
+<head><title>Frankenstein speech count</title></head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
     <g transform="translate(150,100)">
     <g>
-    <text x="0" y="-5" font-family="sans-serif" font-size="20px" fill="black">Speaker Frequencies in Everyman</text>
+    <text x="0" y="-5" font-family="sans-serif" font-size="20px" fill="black">Speaker Frequencies in Frankenstein</text>
     </g>
     <g>
         {
             for $spkr at $pos in $speakers
-            let $spkr-speech-count := //Q{}speech/Q{}line[Q{}speaker/data(@char) = $spkr] => count()
+            let $spkr-speech-count := $quote[data(@speaker) = $spkr] => count()
                 (:where $spkr-speech-count > 1 This has been eliminated:)
                 (:order by $spkr-speech-count descending  This isn't working :)
             return
@@ -24,4 +30,5 @@ declare variable $yspacer := 25;
         }
         </g>
     </g>
-</svg>
+</svg></body>
+</html>

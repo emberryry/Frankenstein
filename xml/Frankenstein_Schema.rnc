@@ -1,13 +1,13 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start= FrankensteinProject
-FrankensteinProject = element FrankensteinProject {Title, Author, Contents, letter*, ch*, body}
+FrankensteinProject = element FrankensteinProject {Title, Author, contents, letter*, ch*, body}
 #need to say that there are a mixture of para, ch, letter, etc
 
 Title = element Title {text}
 Author = element Author {text}
 #can leave title and author alone
-Contents = element Contents {text}
+contents = element contents {text}
 body = element body {letter*, ch*}
 
 #letter and chapter are wrong because n is followed by paragrapghs not text

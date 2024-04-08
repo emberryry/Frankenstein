@@ -6,3 +6,5 @@ Small bios for each person
 Found font and colors
 Nav bar creation
 Bar graph where it splits based on whose perspective it is as the story progresses.
+Work with SVG
+make a network graph
