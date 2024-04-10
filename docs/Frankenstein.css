@@ -41,20 +41,11 @@ body
     
     .border
     {
-        width: 1470px;
+        width: 1500px;
         height: auto;
         position: absolute;
         top: 0px;
-        left: 0px;
-    }
-    
-    .bolt-left 
-    {
-        width: 80px;
-        height: auto;
-        position: absolute;
-        top: 35px;
-        left: 505px;
+        left: -20px;
     }
 
     h1
@@ -63,15 +54,6 @@ body
         text-align: center;
         text-decoration: underline;
         margin-top: 50px;
-    }
-    
-    .bolt-right 
-    {
-        width: 80px;
-        height: auto;
-        position: absolute;
-        top: 37px;
-        right: 510px;
     }
     
     h2
