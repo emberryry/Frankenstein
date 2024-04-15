@@ -16,10 +16,14 @@ type = attribute type {text}
 #some of p may be in quotes
 
 letter = element letter {(text| n| p| loc| d)+}
-ch = element ch {(n| p| text)+}
+ch = element ch {n,text, narrator+}
+narrator = element narrator {name, p+}
+name = attribute name {text}
 
 q = element q {speaker?, text}
 speaker = attribute speaker {text}
+
+
 
 n = attribute n {xsd:integer}
 
