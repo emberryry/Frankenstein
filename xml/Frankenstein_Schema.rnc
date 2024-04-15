@@ -16,7 +16,7 @@ type = attribute type {text}
 #some of p may be in quotes
 
 letter = element letter {(text| n| p| loc| d)+}
-ch = element ch {n,text, narrator+}
+ch = element ch {n,text, narrator*}
 narrator = element narrator {name, p+}
 name = attribute name {text}
 
