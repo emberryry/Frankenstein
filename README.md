@@ -6,9 +6,9 @@ Team Co-ordinator: Rin
 
 Subject Expert: Rin, Daniel  
 
-Quality Control Officer: Maya  
-
-Web Design: Maya  
-
 Documentation Officer: Daniel  
+
+Quality Control Officer: Myles  
+
+Web Design: Myles
 
