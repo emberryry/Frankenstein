@@ -12,5 +12,5 @@ for $narrator in $narrators
         let $speech-count :=$frank//narrator[data(@name)=$narrator]
             //q[data(@speaker)=$speaker]=>count()
            
-           return concat($narrator, ",", $speaker,",",$speech-count, $linefeed)
+           return concat($narrator, "_Narrator,", $speaker,",",$speech-count, $linefeed)
         
