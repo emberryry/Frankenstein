@@ -12,7 +12,7 @@ declare variable $yspacer := 25;
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1000" viewBox="0 0 1100 1000">
     <g transform="translate(150,100)">
     <g>
-    <text x="0" y="-5" font-family="sans-serif" font-size="20px" fill="black">Speaker Frequencies in Frankenstein</text>
+    <text x="0" y="-5" font-family="sans-serif" font-size="20px" fill="black">Speech count in Frankenstein</text>
     </g>
     <g>
         {
