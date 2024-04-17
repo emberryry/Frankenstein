@@ -1,4 +1,3 @@
-
 declare option saxon:output "method=html";
 declare variable $project := collection("../xml/?.select=*.xml");
 declare variable $frank := doc("../xml/Frankenstein_MarkUp.xml");
@@ -6,6 +5,10 @@ declare variable $linefeed := "&#10;";
 declare variable $tab :="&#x9;";
 
 <html>
+<head>
+<link type="text/css" href="Frankenstein.css" rel="stylesheet" />
+<title>Speaker Count</title>
+</head>
   <body> <p>There is a probable connection between the narrator of each chapter and how many times they speak, this table will show how many paragraphs and line characters there is for each chapter.</p> 
     <table>
     <tr>
