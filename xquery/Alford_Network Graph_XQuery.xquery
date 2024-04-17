@@ -22,4 +22,4 @@ let $narrators := //narrator[./data(@name)]/data(@name)
 for $narrator in $narrators => distinct-values()
     let $frequency := count(//narrator[./data(@name)=$narrator])
     
-return concat($narrator, ",Narrator,", $frequency, $linefeed)))
+return concat($narrator,"_Narrator,Narrator,", $frequency, $linefeed)))
