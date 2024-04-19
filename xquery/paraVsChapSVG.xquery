@@ -14,6 +14,7 @@ declare variable $yspacer := 25;
             </g>
             <g>
                 {
+                    let $chapters := //body//ch
                     for $chapter in $chapters
                     let $chapNumber := $chapter/data(@n)
                     let $paragraphs := $chapter//p
@@ -22,7 +23,7 @@ declare variable $yspacer := 25;
                         <g>
                         <text x="-75" y="{$pos * $yspacer + 5}" font-family="sans-serif" font-size="12px" fill="black">{$spkr}</text>
                         <line x1="0" y1="{$pos * $yspacer}" x2="{$spkr-speech-count * $xspacer}" y2="{$pos * $yspacer}" stroke="blue" stroke-width="15"/>
-                        <text x="{$spkr-speech-count * $xspacer + 10}" y="{$pos * $yspacer + 5}" font-family="sans-serif" font-size="12px" fill="black">{$spkr-speech-count}</text>
+                        <text x="{$para_count * $xspacer + 10}" y="{$pos * $yspacer + 5}" font-family="sans-serif" font-size="12px" fill="black">{$paracount}</text>
                         <line x1="0" y1="0" x2="0" y2="{max($pos +1) * $yspacer}" stroke="black" stroke-width="2"/>
                         </g>
                 }

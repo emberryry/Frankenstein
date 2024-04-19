@@ -9,9 +9,20 @@ declare variable $yspacer := 25;
 <html>
     <head>
         <title>Frankenstein Speech Count</title>
-        <link tpe="text/css" href="Frankenstein.css" rel="stylesheet" />
+        <link type="text/css" href="Frankenstein.css" rel="stylesheet" />
     </head>
     <body>
+    <img src="border.png" alt="border" class="border"/>
+        <h1>Frankenstein</h1>
+        
+        <nav>
+                <div><a href="speechcount.html">Graphs</a></div>
+                <div><a href="#about-content">About</a></div>
+                <div><a href="#team-content">Team</a></div>
+        </nav>
+        
+        <div id="graph-content" class="content">
+            <h2>Graphs</h2>
         <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1000" viewBox="0 0 1100 1000">
             <g transform="translate(150,100)">
             <g>
@@ -35,5 +46,7 @@ declare variable $yspacer := 25;
                 </g>
                 </g>
             </svg>
+            
+        </div>
     </body>
 </html>
