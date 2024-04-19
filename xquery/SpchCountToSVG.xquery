@@ -31,6 +31,7 @@ declare variable $yspacer := 25;
                         <line x1="0" y1="0" x2="0" y2="{max($pos +1) * $yspacer}" stroke="black" stroke-width="2"/>
                         </g>
                 }
+
                 </g>
                 </g>
             </svg>
