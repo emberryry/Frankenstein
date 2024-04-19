@@ -1,7 +1,6 @@
 declare option saxon:output "method=html";
 
-declare variable $quote := doc('../xml/Frankenstein_MarkUp.xml')//q;
-declare variable $speakers := $quote//data(@speaker) => distinct-values();
+declare variable $chapters := //Q{}body//Q{}ch;
 declare variable $xspacer := 10;
 declare variable $yspacer := 25;
 <html>
@@ -14,20 +13,22 @@ declare variable $yspacer := 25;
             </g>
             <g>
                 {
-                    let $chapters := //body//ch
-                    for $chapter in $chapters
-                    let $chapNumber := $chapter/data(@n)
-                    let $paragraphs := $chapter//p
-                    let $para_count := $paragraphs=>count()
+                    for $chapter at $pos in $chapters
+                        let $chapNumber := $chapter/data(@n)
+                        let $paragraphs := $chapter//Q{}p
+                        let $para_count := $paragraphs=>count()
+                    
+                    order by $para_count
+                    
                     return
                         <g>
-                        <text x="-75" y="{$pos * $yspacer + 5}" font-family="sans-serif" font-size="12px" fill="black">{$spkr}</text>
-                        <line x1="0" y1="{$pos * $yspacer}" x2="{$spkr-speech-count * $xspacer}" y2="{$pos * $yspacer}" stroke="blue" stroke-width="15"/>
-                        <text x="{$para_count * $xspacer + 10}" y="{$pos * $yspacer + 5}" font-family="sans-serif" font-size="12px" fill="black">{$paracount}</text>
+                        <text x="-75" y="{$pos * $yspacer + 5}" font-family="sans-serif" font-size="12px" fill="black">{$chapter}</text>
+                        <line x1="0" y1="{$pos * $yspacer}" x2="{$para_count * $xspacer}" y2="{$pos * $yspacer}" stroke="purple" stroke-width="15"/>
+                        <text x="{$para_count * $xspacer + 10}" y="{$pos * $yspacer + 5}" font-family="sans-serif" font-size="12px" fill="black">{$chapters}</text>
                         <line x1="0" y1="0" x2="0" y2="{max($pos +1) * $yspacer}" stroke="black" stroke-width="2"/>
                         </g>
-                }
-                </g>
+                    }
+            </g>
             </g>
         </svg>
     </body>

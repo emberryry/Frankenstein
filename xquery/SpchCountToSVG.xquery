@@ -20,9 +20,8 @@ declare variable $yspacer := 25;
                 <div><a href="#about-content">About</a></div>
                 <div><a href="#team-content">Team</a></div>
         </nav>
-        
-        <div id="graph-content" class="content">
-            <h2>Graphs</h2>
+            
+        <h2>Graphs</h2>
         <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1000" viewBox="0 0 1100 1000">
             <g transform="translate(150,100)">
             <g>
@@ -46,7 +45,5 @@ declare variable $yspacer := 25;
                 </g>
                 </g>
             </svg>
-            
-        </div>
     </body>
 </html>
