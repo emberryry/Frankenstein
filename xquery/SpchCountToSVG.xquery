@@ -22,6 +22,7 @@ declare variable $yspacer := 25;
         </nav>
             
         <h2>Graphs</h2>
+        <p>This graph shows the amount of times each person is quoted in the story Victor has the most quotes since he is the narrator for most of the story followed by the Monster who is the 2nd most quoted person</p>
         <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1000" viewBox="0 0 1100 1000">
             <g transform="translate(150,100)">
             <g>
