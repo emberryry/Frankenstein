@@ -28,8 +28,8 @@ declare variable $yspacer := 25;
                     <a href="#">Network Graph</a>
                 </div>
             </div>
-            <div><a href="#about-content">About</a></div>
-            <div><a href="#team-content">Team</a></div>
+             <div><a href="aboutTab.html">About</a></div>
+            <div><a href="teamTab.html">Team</a></div>
         </nav>
         
     <h1>Speaker Frequencies in Frankenstein</h1>
