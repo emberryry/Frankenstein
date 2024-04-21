@@ -25,7 +25,7 @@ declare variable $yspacer := 25;
                 <a href="#">Graphs</a>
                 <div class="dropdown-content">
                     <a href="speechcount.html">Speaker Frequencies</a>
-                    <a href="paragraphs_per_chapter.html">Paragraphs Per Chapter</a>
+                    <a href="Chapters_vs_Paragraphs.html">Paragraphs Per Chapter</a>
                     <a href="#">Network Graph</a>
                 </div>
             </div>
@@ -33,6 +33,7 @@ declare variable $yspacer := 25;
             <div><a href="#team-content">Team</a></div>
         </nav>
     <h1>Paragraphs per Chapter</h1>
+    <p>This graph depicts</p>
     <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1000" viewBox="0 0 1100 1000">
         <g transform="translate(150,100)">
         
