@@ -4,6 +4,17 @@ body
    color: black;
 }
 
+a 
+{
+    text-decoration: none; /* Removes underline */
+    color: black; /* Sets text color to black */
+}
+
+a:hover 
+{
+    text-decoration: underline; /* Underline on hover for interactivity feedback */
+}
+
     nav 
     {
         background-color: #CFD5CB; /* nav bar background color */
