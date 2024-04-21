@@ -3,21 +3,29 @@
     <head>
         <title>Frankenstein</title>
         <link type="text/css" href="Frankenstein.css" rel="stylesheet" />
+        <link type="text/css" href="dropdownMenu.css" rel="stylesheet" />
     </head>
     <body>
         <img src="border.png" alt="border" class="border"/>
         <h1>Frankenstein</h1>
         
         <nav>
-                <div><a href="speechcount.html">Graphs</a></div>
-                <div><a href="#about-content">About</a></div>
-                <div><a href="#team-content">Team</a></div>
+            <div class="dropdown">
+                <a href="#">Graphs</a>
+                <div class="dropdown-content">
+                    <!-- Dropdown options -->
+                    <a href="speechcount.html">Speaker Frequencies</a>
+                    <a href="#">Paragraphs per Chapter</a>
+                    <a href="#">Network Graph</a>
+                </div>
+            </div>
+            <div><a href="#about-content">About</a></div>
+            <div><a href="#team-content">Team</a></div>
         </nav>
         
         <div id="graph-content" class="content">
             <h2>Graphs</h2>
-            
-            
+            <!-- Content for the Graphs section -->
         </div>
         
         <div id="about-content" class="content">
