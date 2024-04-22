@@ -25,7 +25,7 @@ declare variable $yspacer := 25;
                 <div class="dropdown-content">
                     <a href="speechcount.html">Speaker Frequencies</a>
                     <a href="Chapters_vs_Paragraphs.html">Paragraphs Per Chapter</a>
-                    <a href="#">Network Graph</a>
+                    <a href="Network_Graph.html">Network Graph</a>
                 </div>
             </div>
              <div><a href="aboutTab.html">About</a></div>
