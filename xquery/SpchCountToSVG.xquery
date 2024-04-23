@@ -29,7 +29,7 @@ declare variable $yspacer := 25;
                 </div>
             </div>
              <div><a href="aboutTab.html">About</a></div>
-            <div><a href="teamTab.html">Team</a></div>
+            <div><a href="teamTab.html">Team Info</a></div>
         </nav>
         
     <h1>Speaker Frequencies in Frankenstein</h1>
