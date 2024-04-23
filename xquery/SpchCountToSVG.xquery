@@ -36,25 +36,38 @@ declare variable $yspacer := 25;
     <p>This graph shows the amount of times each person is quoted in the story Victor has the most quotes since he is the narrator for most of the story followed by the Monster who is the 2nd most quoted person</p>
     <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1000" viewBox="0 0 1100 1000">
         <g transform="translate(150,100)">
-            <g>
-                <text x="10" y="-15" font-family="sans-serif" font-size="30px" fill="black" style="text-decoration: underline;">Speaker Frequencies in Frankenstein</text>
-            </g>
-            <g>
-                {
-                    for $spkr at $pos in $speakers
-                    let $spkr-speech-count := $quote[data(@speaker) = $spkr] => count()
-                        (:where $spkr-speech-count > 1 This has been eliminated:)
-                        (:order by $spkr-speech-count descending  This isn't working :)
-                    return
-                        <g>
+        
+            <line x1="0" y1="0" x2="0" y2="{count($speakers) * $yspacer + 15}" stroke="black" stroke-width="2"/>
+            
+            <text x="-150" y="{count($chapters) * $yspacer + -355}" font-family="sans-serif" font-size="16px" fill="black">Speakers</text>
+
+            
+            <line x1="0" y1="{count($chapters) * $yspacer + -135}" x2="{max($chapters//Q{}p=>count()) * $xspacer + 15}" y2="{count($chapters) * $yspacer + -130}" stroke="black" stroke-width="2"/>
+            
+            <text x="400" y="{count($chapters) * $yspacer + -90}" font-family="sans-serif" font-size="16px" fill="black">Total Number of Quotes</text>
+
+            {
+                let $max_x := max($chapters//Q{}p=>count())
+                        for $i in 0 to $max_x
+                        where $i mod 5 = 0
+                        return
+                            <g>
+                                <line x1="{$i * $xspacer}" y1="{count($chapters) * $yspacer + -130}" x2="{$i * $xspacer}" y2="{count($chapters) * $yspacer + -140}" stroke="black" stroke-width="2"/>
+                                <text x="{$i * $xspacer}" y="{count($chapters) * $yspacer + -115}" font-family="sans-serif" font-size="12px" fill="black" text-anchor="middle">{$i}</text>
+                            </g>
+            }
+            
+            {
+                for $spkr at $pos in $speakers
+                let $spkr-speech-count := $quote[data(@speaker) = $spkr] => count()
+                return
+                    <g>
                         <text x="-75" y="{$pos * $yspacer + 5}" font-family="sans-serif" font-size="12px" fill="black">{$spkr}</text>
                         <line x1="0" y1="{$pos * $yspacer}" x2="{$spkr-speech-count * $xspacer}" y2="{$pos * $yspacer}" stroke="purple" stroke-width="15"/>
                         <text x="{$spkr-speech-count * $xspacer + 10}" y="{$pos * $yspacer + 5}" font-family="sans-serif" font-size="12px" fill="black">{$spkr-speech-count}</text>
-                        <line x1="0" y1="0" x2="0" y2="{max($pos +1) * $yspacer}" stroke="black" stroke-width="2"/>
-                        </g>
-                }
-            </g>
-            </g>
-        </svg>
+                    </g>
+            }
+        </g>
+    </svg>
     </body>
 </html>

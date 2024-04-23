@@ -26,7 +26,7 @@ declare variable $yspacer := 25;
                 <div class="dropdown-content">
                     <a href="speechcount.html">Speaker Frequencies</a>
                     <a href="Chapters_vs_Paragraphs.html">Paragraphs Per Chapter</a>
-                    <a href="#">Network Graph</a>
+                    <a href="Network_Graph.html">Network Graph</a>
                 </div>
             </div>
              <div><a href="aboutTab.html">About</a></div>
@@ -43,6 +43,9 @@ declare variable $yspacer := 25;
                 <g>
                     <!-- Y-Axis Line -->
                     <line x1="0" y1="0" x2="0" y2="{count($chapters) * $yspacer + 15}" stroke="black" stroke-width="2"/>
+                    
+                    <!-- Y-Axis Label -->
+                    <text x="-125" y="{count($chapters) * $yspacer + -295}" font-family="sans-serif" font-size="16px" fill="black">Chapters</text>
                     
                     <!-- X-Axis Label -->
                     <text x="400" y="{count($chapters) * $yspacer + 60}" font-family="sans-serif" font-size="16px" fill="black">Number of Paragraphs</text>
@@ -85,5 +88,3 @@ declare variable $yspacer := 25;
         </svg>
     </body>
 </html>
-
-
