@@ -67,6 +67,15 @@ a:hover
         margin-top: 50px;
     }
     
+    .Frankenstein
+    {
+        width: 250px;
+        height: auto;
+        position: absolute;
+        bottom: 100px;
+        right: 200px;
+    }
+    
     h2
     {
         font-size: 40px;
@@ -92,4 +101,12 @@ a:hover
         font-size: 20px;
         text-decoration: underline;
         text-align: left;
+    }
+    
+    h6 
+    {
+     font-size: 20px;
+     text-align: left;
+     padding-left: 150px;  /* Adds space to the left for all lines */
+     max-width: 750px;   /* Limits the width of the text for wrapping */
     }
