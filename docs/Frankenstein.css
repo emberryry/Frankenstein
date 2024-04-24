@@ -120,9 +120,15 @@ body
      max-width: 750px;   /* Limits the width of the text for wrapping */
     }
     
-   
-.centeralign {
-  text-align: left;
-  padding-left: 150px;
-  max-width: 750px;
-}
+    p
+    {
+     padding-left: 100px;  /* Adds space to the left for all lines */
+     max-width: 1270px;   /* Limits the width of the text for wrapping */
+    }
+    
+    .centeralign 
+    {
+      text-align: left;
+      padding-left: 150px;
+      max-width: 750px;
+    }

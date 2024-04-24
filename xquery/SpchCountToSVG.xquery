@@ -35,11 +35,11 @@ declare variable $yspacer := 25;
     <h1>Speaker Frequencies in Frankenstein</h1>
     <p>This graph shows the amount of times each person is quoted in the story Victor has the most quotes since he is the narrator for most of the story followed by the Monster who is the 2nd most quoted person</p>
     <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1000" viewBox="0 0 1100 1000">
-        <g transform="translate(150,100)">
+        <g transform="translate(170,100)">
         
             <line x1="0" y1="0" x2="0" y2="{count($speakers) * $yspacer + 15}" stroke="black" stroke-width="2"/>
             
-            <text x="-150" y="{count($chapters) * $yspacer + -355}" font-family="sans-serif" font-size="16px" fill="black">Speakers</text>
+            <text x="-160" y="{count($chapters) * $yspacer + -355}" font-family="sans-serif" font-size="16px" fill="black">Speakers</text>
 
             
             <line x1="0" y1="{count($chapters) * $yspacer + -135}" x2="{max($chapters//Q{}p=>count()) * $xspacer + 15}" y2="{count($chapters) * $yspacer + -130}" stroke="black" stroke-width="2"/>
