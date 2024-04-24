@@ -61,11 +61,10 @@ body
     
     .border
     {
-        width: 1500px;
+        width: 100%;
         height: auto;
         position: absolute;
         top: 0px;
-        left: -20px;
     }
 
     h1
@@ -81,8 +80,8 @@ body
         width: 250px;
         height: auto;
         position: absolute;
-        bottom: 280px;
-        right: 200px;
+        bottom: 120px;
+        right: 175px;
     }
     
     h2
@@ -127,5 +126,3 @@ body
   padding-left: 150px;
   max-width: 750px;
 }
-
-
