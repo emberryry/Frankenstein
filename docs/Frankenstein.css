@@ -10,34 +10,43 @@ a
     color: black; /* Sets text color to black */
 }
 
-a:hover 
+/* Ensure the body has no margin or padding to avoid space around the nav */
+body 
 {
-    text-decoration: underline; /* Underline on hover for interactivity feedback */
+    margin: 0;
+    padding: 0;
 }
 
+/* Nav bar styling */
     nav 
-    {
-        background-color: #CFD5CB; /* nav bar background color */
-        text-align: center; /* aligns nav bar text */
-    }
-    
-        nav div 
         {
-            padding: 14px 20px; /* 14px is height of the nav bar -- 20px is how far apart words are to each other in nav bar*/
-            display: inline-block;
+            background-color: #CFD5CB; /* nav bar background color */
+            text-align: center; /* aligns nav bar text */
+            width: 100%; /* Ensure it spans the full width of the viewport */
         }
         
+        /* Ensure nav items are displayed inline to prevent breaking to a new line */
+        nav div 
+        {
+            padding: 14px 20px; /* Padding for nav items */
+            display: inline-block; /* Display inline to avoid breaking lines */
+        }
+        
+        /* Nav links styling */
         nav a 
         {
             font-size: 20px;
-            text-decoration: none;
-            color: black; /* text color on nav bar */
+            text-decoration: none; /* No underline */
+            color: black; /* Text color */
         }
         
+        /* Hover effect for nav items */
         nav div:hover 
         {
-            background-color: #555;
+            background-color: #555; /* Change background color on hover */
+            color: white; /* Change text color on hover */
         }
+
 
         
     .content 
@@ -72,7 +81,7 @@ a:hover
         width: 250px;
         height: auto;
         position: absolute;
-        bottom: 100px;
+        bottom: 280px;
         right: 200px;
     }
     
@@ -107,6 +116,7 @@ a:hover
     {
      font-size: 20px;
      text-align: left;
+     padding-top: 50px;
      padding-left: 150px;  /* Adds space to the left for all lines */
      max-width: 750px;   /* Limits the width of the text for wrapping */
     }
