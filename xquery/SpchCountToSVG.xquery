@@ -33,7 +33,7 @@ declare variable $yspacer := 25;
         </nav>
         
     <h1>Speaker Frequencies in Frankenstein</h1>
-    <p>This graph shows the amount of times each person is quoted in the story Victor has the most quotes since he is the narrator for most of the story followed by the Monster who is the 2nd most quoted person</p>
+    <p>This graph shows the amount of times each person is quoted in the story Victor has the most quotes since he is the narrator for most of the story followed by the Monster who is the 2nd most quoted person. The 3rd and 4th place are Elizabeth and Clerval who are very close to Victor so it makes sense that they would be there. Walton is only quoted 7 times even though he is one of the Narrators, but this is because he is only the narrator for half of chapter 24 after Victor finishes his story.</p>
     <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1000" viewBox="0 0 1100 1000">
         <g transform="translate(170,100)">
         
