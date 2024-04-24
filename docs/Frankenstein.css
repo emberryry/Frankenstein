@@ -46,8 +46,6 @@ body
             background-color: #555; /* Change background color on hover */
             color: white; /* Change text color on hover */
         }
-
-
         
     .content 
     {
@@ -92,23 +90,25 @@ body
     
     h3
     {
-        font-size: 20px;
+        font-size: 25px;
         text-decoration: underline;
-        text-align: left;
+        padding-left: 50px;
     }
     
     h4
     {
         font-size: 20px;
-        text-decoration: underline;
-        text-align: left;
+        padding-left: 75px;
+        font-weight: normal; /* Removes bold styling from h4 */
     }
     
     h5
     {
         font-size: 20px;
-        text-decoration: underline;
+        font-weight: normal;
         text-align: left;
+        padding-left: 150px;
+        max-width: 1175px;
     }
     
     h6 
@@ -124,11 +124,5 @@ body
     {
      padding-left: 100px;  /* Adds space to the left for all lines */
      max-width: 1270px;   /* Limits the width of the text for wrapping */
-    }
-    
-    .centeralign 
-    {
-      text-align: left;
-      padding-left: 150px;
-      max-width: 750px;
+     font-size: 18px;
     }
