@@ -1,6 +1,6 @@
 body 
 {
-   background:  #2eb82e/* #079500 */;
+   background:  /* #2eb82e */ #079500;
    color: black;
 }
 
@@ -20,7 +20,7 @@ body
 /* Nav bar styling */
     nav 
         {
-            background-color: #CFD5CB; /* nav bar background color */
+            background-color: #A9A9A9; /* nav bar background color */
             text-align: center; /* aligns nav bar text */
             width: 100%; /* Ensure it spans the full width of the viewport */
         }
@@ -73,13 +73,33 @@ body
         margin-top: 50px;
     }
     
+    /* Base styling for the Frankenstein image */
     .Frankenstein
     {
-        width: 250px;
-        height: auto;
-        position: absolute;
-        bottom: 120px;
-        right: 175px;
+        width: 250px;  /* Image width */
+        height: auto;  /* Maintain aspect ratio */
+    }
+    
+    /* When the screen is wide (desktop), keep the image positioned at the bottom-right */
+    @media (min-width: 900px) {  /* Adjust the value depending on your needs */
+        .Frankenstein
+        {
+            position: absolute;  /* Position absolutely */
+            bottom: 150px;  /* Place the image 120px from the bottom */
+            right: 175px;  /* Place the image 175px from the right edge */
+        }
+    }
+    
+    /* When the screen is smaller (tablet or mobile), place the image below the text */
+    @media (max-width: 899px) {  /* When the screen is smaller than 900px */
+        .Frankenstein
+        {
+            position: static;  /* Places the image within the normal document flow */
+            margin-top: 20px;  /* Adds a margin on top to separate from the content above */
+            margin-left: auto;  /* Centers the image horizontally */
+            margin-right: auto;  /* Centers the image horizontally */
+            display: block;  /* Ensures the image is displayed as a block element */
+        }
     }
     
     h2
@@ -88,19 +108,26 @@ body
         text-align: center;
     }
     
-    h3
+    /* General style for all h3 headings */
+    h3 
+    {
+        padding-left: 50px; /* Applies to all h3 */
+    }
+    
+    /* Styling for the first part of the h3 */
+    .h3-name 
     {
         font-size: 25px;
         text-decoration: underline;
-        padding-left: 50px;
     }
     
-    h4
+    /* Styling for the details after the first <br> and subsequent text */
+    .h3-details 
     {
         font-size: 20px;
-        padding-left: 75px;
-        font-weight: normal; /* Removes bold styling from h4 */
+        font-weight: normal;
     }
+
     
     h5
     {
@@ -114,15 +141,35 @@ body
     h6 
     {
      font-size: 20px;
+     font-weight: normal;
      text-align: left;
      padding-top: 50px;
      padding-left: 150px;  /* Adds space to the left for all lines */
-     max-width: 750px;   /* Limits the width of the text for wrapping */
+     max-width: 850px;   /* Limits the width of the text for wrapping */
     }
     
     p
     {
      padding-left: 100px;  /* Adds space to the left for all lines */
-     max-width: 1270px;   /* Limits the width of the text for wrapping */
-     font-size: 18px;
+     max-width: 1500px;   /* Limits the width of the text for wrapping */
+     font-size: 20px;
+    }
+    
+    /* Common styles for rounded rectangles with light green background and opacity */
+    .rounded-rectangle 
+    {
+        background-color: #ebfaeb;  /* Light green with 30% opacity */
+        border-radius: 15px;  /* Rounded corners */
+        padding: 10px;  /* Space inside the rectangle */
+        margin: 10px;  /* Space outside the rectangle */
+    }
+    
+    /* Apply the common style to headings from h2 to h6 and paragraphs */
+    h3, h5, h6, p 
+    {
+        /* Apply the rounded-rectangle class for common styling */
+        background-color: rgba(235, 250, 235, 0.3);  /* Light green with 30% opacity */
+        border-radius: 15px;  /* Rounded corners */
+        padding: 20px;  /* Space inside the rectangle */
+        margin: 20px;  /* Space outside the rectangle */
     }
