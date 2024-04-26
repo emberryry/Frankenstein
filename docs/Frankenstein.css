@@ -76,7 +76,7 @@ body
     /* Base styling for the Frankenstein image */
     .Frankenstein
     {
-        width: 250px;  /* Image width */
+        width: 200px;  /* Image width */
         height: auto;  /* Maintain aspect ratio */
     }
     
@@ -85,8 +85,8 @@ body
         .Frankenstein
         {
             position: absolute;  /* Position absolutely */
-            bottom: 150px;  /* Place the image 120px from the bottom */
-            right: 175px;  /* Place the image 175px from the right edge */
+            bottom: 200px;  /* Place the image 120px from the bottom */
+            right: 200px;  /* Place the image 175px from the right edge */
         }
     }
     

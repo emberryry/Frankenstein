@@ -34,7 +34,7 @@ declare variable $yspacer := 25;
             <div><a href="teamTab.html">Team Info</a></div>
         </nav>
     <h1>Paragraphs per Chapter</h1>
-    <p>This graph shows the amount of paragraphs each chapter has in the book Frankenstein. As shown, the last chapter, chapter 24, has the most paragraphs by far in the book which is almost three times as many paragraphs as the chapter with the least.</p>
+    <p>This graph shows the amount of paragraphs each chapter has in the book Frankenstein. This was As shown, the last chapter, chapter 24, has the most paragraphs by far in the book which is almost three times as many paragraphs as the chapter with the least.</p>
     <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1000" viewBox="0 0 1100 1000">
         <g transform="translate(150,100)">
         
