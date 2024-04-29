@@ -1,0 +1,27 @@
+Project review: Frankenstein
+4/29/2024
+Dr. Campbell
+
+Goals and scope:
+
+The intent of this project was to explore the relationships between the three narrators of the novel and the nature of the sections narrated by each. In this it was partly successful.
+
+Where it was most successful was in the network graph. Here there are two node types, identified by color: narrators (red) and speakers (green). While this graph calls out for more interpretive discussion, the relationships are clear.
+
+Where it is missing is in the other graphs, Speaker Frequencies and Paragraphs per Chapter. At a more ambitious level, it would have been possible to color-code bars or sections of bars to identify the narrator. More simply, the Speaker Frequencies could have been split into three graphs, one for each narrator; and the Paragraphs per Chapter could have included some other indication of who narrated each chapter. 
+
+The About page is well constructed, but each of the graph pages (not just the network, as mentioned above) needed more interpretive discussion.
+
+UX and design: 
+
+The green background could have been a visual problem but the lighter-colored text boxes make the text significantly easier to read. The use of the header as the (unlabeled) Home button is not necessarily intuitive; it is fine to have it act that way (as some websites do), but there should also be a Home button on the nav bar.
+
+The black "Frankenstein hair" border at the top of the header is a great touch. It's unfortunate that the bolts had to be dropped, but you don't want images obscuring the text (which was the reason they were removed).
+
+Code: 
+
+The code for this project was based directly on provided models. Adding the features identifying the different narrators, and perhaps other more innovative work, would have been possible if the project schedule had been a bit further along by the final weeks of the semester. It is to be acknowledged in this context that the manual markup of the speakers meant the XML took more time to create than a straightforwardly Regex-able markup would have taken.
+
+Summary:
+
+While not all of the goals were achieved, this is nonetheless a solid, stable project as regards the XML, XQuery, and network graph. The loose ends relate to the "humanities" rather than the "digital" side of the project.
